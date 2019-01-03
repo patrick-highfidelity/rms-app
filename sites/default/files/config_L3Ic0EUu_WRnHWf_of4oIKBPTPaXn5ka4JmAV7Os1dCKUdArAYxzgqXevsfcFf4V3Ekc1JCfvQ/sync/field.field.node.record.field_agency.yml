@@ -1,0 +1,21 @@
+uuid: a538d5cd-0f87-42ae-a8d9-674c3cbca987
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_agency
+    - node.type.record
+  module:
+    - options
+id: node.record.field_agency
+field_name: field_agency
+entity_type: node
+bundle: record
+label: Agency
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

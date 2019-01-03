@@ -1,0 +1,25 @@
+uuid: c97c54c1-849e-4b16-87bd-e3117f24fc8c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_birth_month
+    - node.type.record
+  module:
+    - field_token_value
+id: node.record.field_birth_month
+field_name: field_birth_month
+entity_type: node
+bundle: record
+label: 'Birth Month'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '[node:field_date_of_birth:date:html_month]'
+default_value_callback: ''
+settings:
+  field_value: '[node:field_date_of_birth:date:custom:F]'
+  remove_empty: 1
+field_type: field_token_value

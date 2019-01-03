@@ -1,0 +1,31 @@
+uuid: 148864a9-8d1b-4b85-8eb8-73f18bb265ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_life_override
+    - node.type.record
+    - paragraphs.paragraphs_type.commissions
+  module:
+    - entity_reference_revisions
+id: node.record.field_life_override
+field_name: field_life_override
+entity_type: node
+bundle: record
+label: 'Life Override'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      commissions: commissions
+    target_bundles_drag_drop:
+      commissions:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

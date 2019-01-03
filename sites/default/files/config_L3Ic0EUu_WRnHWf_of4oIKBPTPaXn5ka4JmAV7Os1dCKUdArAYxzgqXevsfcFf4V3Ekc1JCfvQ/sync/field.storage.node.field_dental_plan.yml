@@ -1,0 +1,39 @@
+uuid: 4510f231-0459-4ef1-82bc-53cf94632eee
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_dental_plan
+field_name: field_dental_plan
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Blue Shield'
+      label: 'Blue Shield'
+    -
+      value: 'Blue Shield Dental PPO'
+      label: 'Blue Shield Dental PPO'
+    -
+      value: 'Delta Dental'
+      label: 'Delta Dental'
+    -
+      value: 'Delta Dental PPO'
+      label: 'Delta Dental PPO'
+    -
+      value: 'Delta Dental, Vision'
+      label: 'Delta Dental, Vision'
+    -
+      value: 'Delta Plan'
+      label: 'Delta Plan'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,21 @@
+uuid: 008a355d-17b0-4e93-bbd9-c01207f256bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_annuity_product
+    - node.type.record
+  module:
+    - options
+id: node.record.field_annuity_product
+field_name: field_annuity_product
+entity_type: node
+bundle: record
+label: Product
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,21 @@
+uuid: 7f58e987-58b4-451d-b998-496b472d358d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_county
+    - node.type.record
+  module:
+    - options
+id: node.record.field_county
+field_name: field_county
+entity_type: node
+bundle: record
+label: County
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

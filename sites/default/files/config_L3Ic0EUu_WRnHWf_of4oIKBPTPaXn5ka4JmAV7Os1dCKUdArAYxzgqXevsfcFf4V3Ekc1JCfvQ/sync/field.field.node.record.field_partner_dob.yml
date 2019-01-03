@@ -1,0 +1,21 @@
+uuid: f778b255-8e9a-4d71-95e1-5bc17ead6d88
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_partner_dob
+    - node.type.record
+  module:
+    - datetime
+id: node.record.field_partner_dob
+field_name: field_partner_dob
+entity_type: node
+bundle: record
+label: 'Spouse/Partner DOB'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

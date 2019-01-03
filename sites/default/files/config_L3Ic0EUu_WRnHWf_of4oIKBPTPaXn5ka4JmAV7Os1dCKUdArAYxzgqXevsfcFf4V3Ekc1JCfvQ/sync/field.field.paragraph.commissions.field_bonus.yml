@@ -1,0 +1,25 @@
+uuid: 8af69a2c-b305-4205-b517-e015e9c2e9ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_bonus
+    - paragraphs.paragraphs_type.commissions
+id: paragraph.commissions.field_bonus
+field_name: field_bonus
+entity_type: paragraph
+bundle: commissions
+label: Bonus
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: !!float 0
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: $
+  suffix: ''
+field_type: decimal

@@ -1,0 +1,25 @@
+uuid: cae2bec7-2ec2-4add-b6c4-a02ff93f6728
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_home_address
+    - node.type.record
+  module:
+    - field_token_value
+id: node.record.field_home_address
+field_name: field_home_address
+entity_type: node
+bundle: record
+label: 'Home Address'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings:
+  field_value: '[node:field_street] [node:field_city], [node:field_state] [node:field_zipcode]'
+  remove_empty: 1
+field_type: field_token_value

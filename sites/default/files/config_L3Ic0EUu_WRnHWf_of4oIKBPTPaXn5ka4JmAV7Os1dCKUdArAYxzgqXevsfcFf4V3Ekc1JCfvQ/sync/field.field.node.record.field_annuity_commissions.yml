@@ -1,0 +1,31 @@
+uuid: f0adb647-2eeb-48df-aff8-34a42d87db6e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_annuity_commissions
+    - node.type.record
+    - paragraphs.paragraphs_type.commissions
+  module:
+    - entity_reference_revisions
+id: node.record.field_annuity_commissions
+field_name: field_annuity_commissions
+entity_type: node
+bundle: record
+label: 'Annuity Commissions'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      commissions: commissions
+    target_bundles_drag_drop:
+      commissions:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

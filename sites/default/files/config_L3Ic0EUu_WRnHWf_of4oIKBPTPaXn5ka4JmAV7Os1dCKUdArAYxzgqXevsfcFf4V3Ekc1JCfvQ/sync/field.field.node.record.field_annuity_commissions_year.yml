@@ -1,0 +1,23 @@
+uuid: c410dba9-41c0-426c-8342-5036f39fad05
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_annuity_commissions_year
+    - node.type.record
+  module:
+    - options
+id: node.record.field_annuity_commissions_year
+field_name: field_annuity_commissions_year
+entity_type: node
+bundle: record
+label: 'Commissions Year'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '2018'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,19 @@
+uuid: 41208a81-9f6d-4835-8bec-b057bead2c7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_company_name
+    - node.type.record
+id: node.record.field_company_name
+field_name: field_company_name
+entity_type: node
+bundle: record
+label: 'Company Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

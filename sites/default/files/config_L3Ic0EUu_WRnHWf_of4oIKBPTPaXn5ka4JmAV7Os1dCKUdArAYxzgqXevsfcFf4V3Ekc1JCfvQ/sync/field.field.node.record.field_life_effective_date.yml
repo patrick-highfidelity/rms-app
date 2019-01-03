@@ -1,0 +1,21 @@
+uuid: 21ec517c-22b8-4a4e-8d32-de2397333d5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_life_effective_date
+    - node.type.record
+  module:
+    - datetime
+id: node.record.field_life_effective_date
+field_name: field_life_effective_date
+entity_type: node
+bundle: record
+label: 'Effective Date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

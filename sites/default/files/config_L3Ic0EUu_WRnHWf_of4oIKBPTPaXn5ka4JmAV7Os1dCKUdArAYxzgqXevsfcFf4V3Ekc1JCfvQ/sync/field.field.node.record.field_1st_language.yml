@@ -1,0 +1,21 @@
+uuid: 1d3efb9a-8755-4263-a5a7-286976ab49b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_1st_language
+    - node.type.record
+  module:
+    - options
+id: node.record.field_1st_language
+field_name: field_1st_language
+entity_type: node
+bundle: record
+label: '1st Language'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

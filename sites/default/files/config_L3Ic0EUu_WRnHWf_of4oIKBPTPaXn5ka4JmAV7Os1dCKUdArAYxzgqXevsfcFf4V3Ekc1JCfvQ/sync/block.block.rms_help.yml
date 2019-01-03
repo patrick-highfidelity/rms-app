@@ -1,0 +1,22 @@
+uuid: 426f4dd8-aa51-45fd-8ea9-04c33ab03162
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - rms
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: rms_help
+theme: rms
+region: footer
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

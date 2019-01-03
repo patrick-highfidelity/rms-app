@@ -1,0 +1,19 @@
+uuid: c448efd8-7dbc-47da-add5-1ddf1e357f09
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_middle_name
+    - node.type.record
+id: node.record.field_middle_name
+field_name: field_middle_name
+entity_type: node
+bundle: record
+label: 'Middle Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

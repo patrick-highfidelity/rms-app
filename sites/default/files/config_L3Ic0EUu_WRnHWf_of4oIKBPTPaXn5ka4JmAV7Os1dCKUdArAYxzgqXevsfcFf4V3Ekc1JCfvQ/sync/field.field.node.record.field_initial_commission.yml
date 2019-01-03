@@ -1,0 +1,25 @@
+uuid: da475e48-57d3-4209-82b4-29df01b21192
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_initial_commission
+    - node.type.record
+id: node.record.field_initial_commission
+field_name: field_initial_commission
+entity_type: node
+bundle: record
+label: 'Initial Commission'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: !!float 0
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: $
+  suffix: ''
+field_type: decimal

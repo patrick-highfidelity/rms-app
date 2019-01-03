@@ -1,0 +1,23 @@
+uuid: cc89217f-13a8-4cc3-ab9b-a90bf2e43004
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_life_commissions_year
+    - node.type.record
+  module:
+    - options
+id: node.record.field_life_commissions_year
+field_name: field_life_commissions_year
+entity_type: node
+bundle: record
+label: 'Life Commissions Year'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '2018'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

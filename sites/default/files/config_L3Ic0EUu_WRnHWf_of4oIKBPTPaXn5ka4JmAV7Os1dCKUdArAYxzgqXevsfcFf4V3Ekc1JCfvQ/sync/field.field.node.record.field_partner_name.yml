@@ -1,0 +1,19 @@
+uuid: aa189325-1815-44e3-82b8-c4341a92f2d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_partner_name
+    - node.type.record
+id: node.record.field_partner_name
+field_name: field_partner_name
+entity_type: node
+bundle: record
+label: 'Spouse/Partner Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

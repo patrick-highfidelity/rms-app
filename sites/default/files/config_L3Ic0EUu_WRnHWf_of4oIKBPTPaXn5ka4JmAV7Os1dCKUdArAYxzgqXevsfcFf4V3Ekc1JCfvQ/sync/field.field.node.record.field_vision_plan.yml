@@ -1,0 +1,21 @@
+uuid: a8ad807e-9d5d-4b5b-9469-df975d0cc6d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_vision_plan
+    - node.type.record
+  module:
+    - options
+id: node.record.field_vision_plan
+field_name: field_vision_plan
+entity_type: node
+bundle: record
+label: 'Vision Plan'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

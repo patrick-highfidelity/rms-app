@@ -1,0 +1,21 @@
+uuid: 28d3aca2-1779-47fc-9d95-ad96d60562df
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_phone_work
+    - node.type.record
+  module:
+    - telephone
+id: node.record.field_phone_work
+field_name: field_phone_work
+entity_type: node
+bundle: record
+label: 'Phone (work)'
+description: 'Format: xxx-xxx-xxxx'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

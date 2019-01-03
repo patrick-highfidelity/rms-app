@@ -1,0 +1,21 @@
+uuid: 13bda94e-8517-4e8a-93b4-9488af0de777
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_action
+    - node.type.record
+id: node.record.field_action
+field_name: field_action
+entity_type: node
+bundle: record
+label: Action
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: x
+default_value_callback: ''
+settings: {  }
+field_type: string

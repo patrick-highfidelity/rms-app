@@ -1,0 +1,25 @@
+uuid: 105080ac-9790-454a-92d4-d8be96500868
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_total_death_benefit
+    - node.type.record
+id: node.record.field_total_death_benefit
+field_name: field_total_death_benefit
+entity_type: node
+bundle: record
+label: 'Total Death Benefit'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: !!float 0
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: $
+  suffix: ''
+field_type: decimal

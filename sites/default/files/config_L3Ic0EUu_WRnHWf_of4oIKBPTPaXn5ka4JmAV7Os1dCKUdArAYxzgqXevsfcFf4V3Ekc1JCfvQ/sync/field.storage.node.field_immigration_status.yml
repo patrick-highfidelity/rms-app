@@ -1,0 +1,36 @@
+uuid: a31460dc-1947-4d7e-bcb0-436be8e7dff1
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_immigration_status
+field_name: field_immigration_status
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Permanent Resident'
+      label: 'Permanent Resident'
+    -
+      value: 'US Citizen'
+      label: 'US Citizen'
+    -
+      value: Working
+      label: Working
+    -
+      value: 'Employment Authorization'
+      label: 'Employment Authorization'
+    -
+      value: 'Student Visa'
+      label: 'Student Visa'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

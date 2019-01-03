@@ -1,0 +1,19 @@
+uuid: 7a70968f-a939-48f2-9c77-5aef70389a6e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mailing_street
+    - node.type.record
+id: node.record.field_mailing_street
+field_name: field_mailing_street
+entity_type: node
+bundle: record
+label: Street
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

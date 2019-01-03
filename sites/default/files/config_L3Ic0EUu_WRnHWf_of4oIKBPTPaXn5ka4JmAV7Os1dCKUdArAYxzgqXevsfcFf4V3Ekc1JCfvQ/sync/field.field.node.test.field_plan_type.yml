@@ -1,0 +1,21 @@
+uuid: a28d405e-3d95-442c-aed0-324668ea507e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_plan_type
+    - node.type.test
+  module:
+    - options
+id: node.test.field_plan_type
+field_name: field_plan_type
+entity_type: node
+bundle: test
+label: 'Plan Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

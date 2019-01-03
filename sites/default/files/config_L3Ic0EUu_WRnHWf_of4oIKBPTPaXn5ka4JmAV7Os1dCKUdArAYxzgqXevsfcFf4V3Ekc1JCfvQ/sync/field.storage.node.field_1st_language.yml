@@ -1,0 +1,30 @@
+uuid: 1f2afba5-ac51-461b-b8a3-ed838c1e6fe1
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_1st_language
+field_name: field_1st_language
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Tagalog
+      label: Tagalog
+    -
+      value: English
+      label: English
+    -
+      value: Spanish
+      label: Spanish
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

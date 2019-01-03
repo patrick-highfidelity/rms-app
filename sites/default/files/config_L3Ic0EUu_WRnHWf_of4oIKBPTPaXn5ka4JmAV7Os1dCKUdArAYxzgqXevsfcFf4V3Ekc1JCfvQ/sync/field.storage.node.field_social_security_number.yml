@@ -1,0 +1,21 @@
+uuid: 6b431767-d28c-44e4-923d-02a905919244
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_social_security_number
+field_name: field_social_security_number
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

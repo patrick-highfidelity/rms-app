@@ -1,0 +1,23 @@
+uuid: b1e5669c-8992-402e-bd60-8d09a6b1c8fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_vision_monthly_premium
+    - node.type.record
+id: node.record.field_vision_monthly_premium
+field_name: field_vision_monthly_premium
+entity_type: node
+bundle: record
+label: 'Vision Monthly Premium'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: $
+  suffix: ''
+field_type: decimal

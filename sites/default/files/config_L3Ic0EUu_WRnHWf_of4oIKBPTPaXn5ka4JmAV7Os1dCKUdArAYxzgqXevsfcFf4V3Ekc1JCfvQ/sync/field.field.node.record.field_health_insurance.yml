@@ -1,0 +1,23 @@
+uuid: 4ec22430-3702-4c12-9fcb-762651009b3b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_health_insurance
+    - node.type.record
+  module:
+    - options
+id: node.record.field_health_insurance
+field_name: field_health_insurance
+entity_type: node
+bundle: record
+label: 'Health Insurance'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: IFP
+default_value_callback: ''
+settings: {  }
+field_type: list_string

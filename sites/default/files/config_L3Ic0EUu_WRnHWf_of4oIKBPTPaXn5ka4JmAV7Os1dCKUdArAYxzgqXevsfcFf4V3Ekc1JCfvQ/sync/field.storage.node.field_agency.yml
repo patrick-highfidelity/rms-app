@@ -1,0 +1,24 @@
+uuid: c0346f32-8765-47c4-8d63-ee36bb086d88
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_agency
+field_name: field_agency
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: FEG
+      label: FEG
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,54 @@
+uuid: 098c6024-4761-41aa-9b03-8e8bb1bb052d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_medicare_health_plan
+field_name: field_medicare_health_plan
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: AARP
+      label: AARP
+    -
+      value: Anthem
+      label: Anthem
+    -
+      value: 'Blue Shield'
+      label: 'Blue Shield'
+    -
+      value: BND
+      label: BND
+    -
+      value: 'Care 1st'
+      label: 'Care 1st'
+    -
+      value: Caremore
+      label: Caremore
+    -
+      value: 'Central Health'
+      label: 'Central Health'
+    -
+      value: 'Easy Choice'
+      label: 'Easy Choice'
+    -
+      value: HealthNet
+      label: HealthNet
+    -
+      value: 'LA Care'
+      label: 'LA Care'
+    -
+      value: SCAN
+      label: SCAN
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,20 @@
+uuid: d508aecb-72c9-4677-812d-c9e371c36a5f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_initial_commission
+field_name: field_initial_commission
+entity_type: node
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

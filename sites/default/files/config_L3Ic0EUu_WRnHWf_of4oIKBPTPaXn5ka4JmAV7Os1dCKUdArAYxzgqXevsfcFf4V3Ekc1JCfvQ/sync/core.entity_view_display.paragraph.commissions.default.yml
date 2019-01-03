@@ -1,0 +1,168 @@
+uuid: 792c34db-e0e8-4c15-82e5-aa1f4351262c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.commissions.field_april
+    - field.field.paragraph.commissions.field_august
+    - field.field.paragraph.commissions.field_bonus
+    - field.field.paragraph.commissions.field_december
+    - field.field.paragraph.commissions.field_february
+    - field.field.paragraph.commissions.field_january
+    - field.field.paragraph.commissions.field_july
+    - field.field.paragraph.commissions.field_june
+    - field.field.paragraph.commissions.field_march
+    - field.field.paragraph.commissions.field_may
+    - field.field.paragraph.commissions.field_november
+    - field.field.paragraph.commissions.field_october
+    - field.field.paragraph.commissions.field_september
+    - paragraphs.paragraphs_type.commissions
+id: paragraph.commissions.default
+targetEntityType: paragraph
+bundle: commissions
+mode: default
+content:
+  field_april:
+    weight: 3
+    label: above
+    settings:
+      thousand_separator: ','
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_august:
+    weight: 7
+    label: above
+    settings:
+      thousand_separator: ','
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_bonus:
+    weight: 12
+    label: above
+    settings:
+      thousand_separator: ','
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_december:
+    weight: 11
+    label: above
+    settings:
+      thousand_separator: ','
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_february:
+    weight: 1
+    label: above
+    settings:
+      thousand_separator: ','
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_january:
+    weight: 0
+    label: above
+    settings:
+      thousand_separator: ','
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_july:
+    weight: 6
+    label: above
+    settings:
+      thousand_separator: ','
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_june:
+    weight: 5
+    label: above
+    settings:
+      thousand_separator: ','
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_march:
+    weight: 2
+    label: above
+    settings:
+      thousand_separator: ','
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_may:
+    weight: 4
+    label: above
+    settings:
+      thousand_separator: ','
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_november:
+    weight: 10
+    label: above
+    settings:
+      thousand_separator: ','
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_october:
+    weight: 9
+    label: above
+    settings:
+      thousand_separator: ','
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_september:
+    weight: 8
+    label: above
+    settings:
+      thousand_separator: ','
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+hidden: {  }

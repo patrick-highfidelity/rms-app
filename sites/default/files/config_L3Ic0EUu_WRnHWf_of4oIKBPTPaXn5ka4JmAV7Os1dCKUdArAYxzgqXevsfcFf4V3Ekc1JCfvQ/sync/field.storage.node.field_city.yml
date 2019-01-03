@@ -1,0 +1,2067 @@
+uuid: 01376162-3ada-4c9b-8064-e0ded0dc053f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_city
+field_name: field_city
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Acton
+      label: Acton
+    -
+      value: Adelanto
+      label: Adelanto
+    -
+      value: 'Agoura Hills'
+      label: 'Agoura Hills'
+    -
+      value: 'Agua Dulce'
+      label: 'Agua Dulce'
+    -
+      value: Alameda
+      label: Alameda
+    -
+      value: Alamo
+      label: Alamo
+    -
+      value: Albany
+      label: Albany
+    -
+      value: Alhambra
+      label: Alhambra
+    -
+      value: 'Aliso Viejo'
+      label: 'Aliso Viejo'
+    -
+      value: Alpine
+      label: Alpine
+    -
+      value: 'Alta Loma'
+      label: 'Alta Loma'
+    -
+      value: Altadena
+      label: Altadena
+    -
+      value: Alturas
+      label: Alturas
+    -
+      value: 'Amador City'
+      label: 'Amador City'
+    -
+      value: Anaheim
+      label: Anaheim
+    -
+      value: 'Anaheim Hills'
+      label: 'Anaheim Hills'
+    -
+      value: Anderson
+      label: Anderson
+    -
+      value: 'Angels Camp'
+      label: 'Angels Camp'
+    -
+      value: 'Angelus Oaks'
+      label: 'Angelus Oaks'
+    -
+      value: Antelope
+      label: Antelope
+    -
+      value: Antioch
+      label: Antioch
+    -
+      value: Anza
+      label: Anza
+    -
+      value: 'Apple Valley'
+      label: 'Apple Valley'
+    -
+      value: Applegate
+      label: Applegate
+    -
+      value: Aptos
+      label: Aptos
+    -
+      value: Arcadia
+      label: Arcadia
+    -
+      value: Arcata
+      label: Arcata
+    -
+      value: Arleta
+      label: Arleta
+    -
+      value: Armona
+      label: Armona
+    -
+      value: Arnold
+      label: Arnold
+    -
+      value: 'Aroura Hills'
+      label: 'Aroura Hills'
+    -
+      value: 'Arroyo Grande'
+      label: 'Arroyo Grande'
+    -
+      value: Atascadero
+      label: Atascadero
+    -
+      value: Atwater
+      label: Atwater
+    -
+      value: Atwood
+      label: Atwood
+    -
+      value: Auberry
+      label: Auberry
+    -
+      value: Auburn
+      label: Auburn
+    -
+      value: Avalon
+      label: Avalon
+    -
+      value: Avery
+      label: Avery
+    -
+      value: 'Avila Beach'
+      label: 'Avila Beach'
+    -
+      value: Azusa
+      label: Azusa
+    -
+      value: Bakersfield
+      label: Bakersfield
+    -
+      value: 'Baldwin Park'
+      label: 'Baldwin Park'
+    -
+      value: Bangor
+      label: Bangor
+    -
+      value: Banning
+      label: Banning
+    -
+      value: Barstow
+      label: Barstow
+    -
+      value: 'Bay Point'
+      label: 'Bay Point'
+    -
+      value: Bayside
+      label: Bayside
+    -
+      value: 'Bel Air'
+      label: 'Bel Air'
+    -
+      value: Bell
+      label: Bell
+    -
+      value: Bellflower
+      label: Bellflower
+    -
+      value: Belmont
+      label: Belmont
+    -
+      value: 'Belmont Shores'
+      label: 'Belmont Shores'
+    -
+      value: Belvedere
+      label: Belvedere
+    -
+      value: 'Ben Lomond'
+      label: 'Ben Lomond'
+    -
+      value: Benicia
+      label: Benicia
+    -
+      value: Berkeley
+      label: Berkeley
+    -
+      value: 'Berry Creek'
+      label: 'Berry Creek'
+    -
+      value: 'Beverly Hills'
+      label: 'Beverly Hills'
+    -
+      value: 'Big Bear City'
+      label: 'Big Bear City'
+    -
+      value: 'Big Bear Lake'
+      label: 'Big Bear Lake'
+    -
+      value: 'Big Sur'
+      label: 'Big Sur'
+    -
+      value: Bishop
+      label: Bishop
+    -
+      value: 'Blue Jay'
+      label: 'Blue Jay'
+    -
+      value: 'Blue Lake'
+      label: 'Blue Lake'
+    -
+      value: Blythe
+      label: Blythe
+    -
+      value: Bolinas
+      label: Bolinas
+    -
+      value: Bonita
+      label: Bonita
+    -
+      value: 'Borrego Springs'
+      label: 'Borrego Springs'
+    -
+      value: Bothell
+      label: Bothell
+    -
+      value: 'Boulder Creek'
+      label: 'Boulder Creek'
+    -
+      value: Brea
+      label: Brea
+    -
+      value: Breenbrae
+      label: Breenbrae
+    -
+      value: Brentwood
+      label: Brentwood
+    -
+      value: Brisbane
+      label: Brisbane
+    -
+      value: Buellton
+      label: Buellton
+    -
+      value: 'Buena Park'
+      label: 'Buena Park'
+    -
+      value: Burbank
+      label: Burbank
+    -
+      value: Burlingame
+      label: Burlingame
+    -
+      value: Burlington
+      label: Burlington
+    -
+      value: Calabasas
+      label: Calabasas
+    -
+      value: 'California City'
+      label: 'California City'
+    -
+      value: Calimesa
+      label: Calimesa
+    -
+      value: Calistoga
+      label: Calistoga
+    -
+      value: Camarillo
+      label: Camarillo
+    -
+      value: Cambria
+      label: Cambria
+    -
+      value: 'Cameron Park'
+      label: 'Cameron Park'
+    -
+      value: Campbell
+      label: Campbell
+    -
+      value: Campo
+      label: Campo
+    -
+      value: 'Canoga Park'
+      label: 'Canoga Park'
+    -
+      value: 'Canyon Country'
+      label: 'Canyon Country'
+    -
+      value: 'Canyon Lake'
+      label: 'Canyon Lake'
+    -
+      value: 'Capistrano Beach'
+      label: 'Capistrano Beach'
+    -
+      value: Capitola
+      label: Capitola
+    -
+      value: Cardiff
+      label: Cardiff
+    -
+      value: Cardiff-by-the-Sea
+      label: Cardiff-by-the-Sea
+    -
+      value: Carlsbad
+      label: Carlsbad
+    -
+      value: Carmel
+      label: Carmel
+    -
+      value: 'Carmel Valley'
+      label: 'Carmel Valley'
+    -
+      value: Carmichael
+      label: Carmichael
+    -
+      value: Carpinteria
+      label: Carpinteria
+    -
+      value: Carson
+      label: Carson
+    -
+      value: Castaic
+      label: Castaic
+    -
+      value: 'Castro Valley'
+      label: 'Castro Valley'
+    -
+      value: 'Catalina Island'
+      label: 'Catalina Island'
+    -
+      value: 'Cathedral City'
+      label: 'Cathedral City'
+    -
+      value: Cayucos
+      label: Cayucos
+    -
+      value: 'Cedar Glen'
+      label: 'Cedar Glen'
+    -
+      value: 'Cedar Ridge'
+      label: 'Cedar Ridge'
+    -
+      value: Ceres
+      label: Ceres
+    -
+      value: Cerritos
+      label: Cerritos
+    -
+      value: Chatsworth
+      label: Chatsworth
+    -
+      value: 'Cherry Valley'
+      label: 'Cherry Valley'
+    -
+      value: Chester
+      label: Chester
+    -
+      value: Chico
+      label: Chico
+    -
+      value: 'China Lake'
+      label: 'China Lake'
+    -
+      value: Chino
+      label: Chino
+    -
+      value: 'Chino Hills'
+      label: 'Chino Hills'
+    -
+      value: 'Chula Vista'
+      label: 'Chula Vista'
+    -
+      value: 'Citrus Heights'
+      label: 'Citrus Heights'
+    -
+      value: 'City of Industry'
+      label: 'City of Industry'
+    -
+      value: Claremont
+      label: Claremont
+    -
+      value: Clayton
+      label: Clayton
+    -
+      value: 'Clearlake Oaks'
+      label: 'Clearlake Oaks'
+    -
+      value: Clearlake
+      label: Clearlake
+    -
+      value: Cloverdale
+      label: Cloverdale
+    -
+      value: Clovis
+      label: Clovis
+    -
+      value: Coarsegold
+      label: Coarsegold
+    -
+      value: Colfax
+      label: Colfax
+    -
+      value: Coloma
+      label: Coloma
+    -
+      value: Colton
+      label: Colton
+    -
+      value: Columbia
+      label: Columbia
+    -
+      value: Colusa
+      label: Colusa
+    -
+      value: Commerce
+      label: Commerce
+    -
+      value: Compton
+      label: Compton
+    -
+      value: Concord
+      label: Concord
+    -
+      value: Cordelia
+      label: Cordelia
+    -
+      value: Corning
+      label: Corning
+    -
+      value: Corona
+      label: Corona
+    -
+      value: 'Corona del Mar'
+      label: 'Corona del Mar'
+    -
+      value: Coronado
+      label: Coronado
+    -
+      value: Corralitos
+      label: Corralitos
+    -
+      value: 'Corte Madera'
+      label: 'Corte Madera'
+    -
+      value: 'Costa Mesa'
+      label: 'Costa Mesa'
+    -
+      value: Cotati
+      label: Cotati
+    -
+      value: 'Coto de Caza'
+      label: 'Coto de Caza'
+    -
+      value: Covina
+      label: Covina
+    -
+      value: 'Crescent City'
+      label: 'Crescent City'
+    -
+      value: Crestline
+      label: Crestline
+    -
+      value: Crockett
+      label: Crockett
+    -
+      value: 'Culver City'
+      label: 'Culver City'
+    -
+      value: Cupertino
+      label: Cupertino
+    -
+      value: Cutten
+      label: Cutten
+    -
+      value: Cypress
+      label: Cypress
+    -
+      value: 'Daly City'
+      label: 'Daly City'
+    -
+      value: 'Dana Point'
+      label: 'Dana Point'
+    -
+      value: Danville
+      label: Danville
+    -
+      value: Davis
+      label: Davis
+    -
+      value: 'Del Mar'
+      label: 'Del Mar'
+    -
+      value: 'Desert Hot Springs'
+      label: 'Desert Hot Springs'
+    -
+      value: 'Diamond Bar'
+      label: 'Diamond Bar'
+    -
+      value: 'Diamond Springs'
+      label: 'Diamond Springs'
+    -
+      value: Dobbins
+      label: Dobbins
+    -
+      value: 'Dominguez Hills'
+      label: 'Dominguez Hills'
+    -
+      value: 'Dove Canyon'
+      label: 'Dove Canyon'
+    -
+      value: Downey
+      label: Downey
+    -
+      value: Duarte
+      label: Duarte
+    -
+      value: Dublin
+      label: Dublin
+    -
+      value: Durham
+      label: Durham
+    -
+      value: 'East Palo Alto'
+      label: 'East Palo Alto'
+    -
+      value: Edwards
+      label: Edwards
+    -
+      value: 'Edwards AFB'
+      label: 'Edwards AFB'
+    -
+      value: 'El Cajon'
+      label: 'El Cajon'
+    -
+      value: 'El Camino Village'
+      label: 'El Camino Village'
+    -
+      value: 'El Centro'
+      label: 'El Centro'
+    -
+      value: 'El Cerrito'
+      label: 'El Cerrito'
+    -
+      value: 'El Dorado'
+      label: 'El Dorado'
+    -
+      value: 'El Dorado Hills'
+      label: 'El Dorado Hills'
+    -
+      value: 'El Granada'
+      label: 'El Granada'
+    -
+      value: Elk
+      label: Elk
+    -
+      value: 'El Grove'
+      label: 'El Grove'
+    -
+      value: 'El Macero'
+      label: 'El Macero'
+    -
+      value: 'El Monte'
+      label: 'El Monte'
+    -
+      value: 'El Segundo'
+      label: 'El Segundo'
+    -
+      value: 'Elk Sobrante'
+      label: 'Elk Sobrante'
+    -
+      value: 'El Toro'
+      label: 'El Toro'
+    -
+      value: Emeryville
+      label: Emeryville
+    -
+      value: Encinitas
+      label: Encinitas
+    -
+      value: Encino
+      label: Encino
+    -
+      value: Escondido
+      label: Escondido
+    -
+      value: Etiwanda
+      label: Etiwanda
+    -
+      value: Etna
+      label: Etna
+    -
+      value: Eureka
+      label: Eureka
+    -
+      value: Exeter
+      label: Exeter
+    -
+      value: Fairfax
+      label: Fairfax
+    -
+      value: Fairfield
+      label: Fairfield
+    -
+      value: 'Fair Oaks'
+      label: 'Fair Oaks'
+    -
+      value: Fallbrook
+      label: Fallbrook
+    -
+      value: Felton
+      label: Felton
+    -
+      value: Ferndale
+      label: Ferndale
+    -
+      value: Fieldbrook
+      label: Fieldbrook
+    -
+      value: Fillmore
+      label: Fillmore
+    -
+      value: Flournoy
+      label: Flournoy
+    -
+      value: Folsom
+      label: Folsom
+    -
+      value: Fontana
+      label: Fontana
+    -
+      value: 'Foothill Ranch'
+      label: 'Foothill Ranch'
+    -
+      value: Foresthill
+      label: Foresthill
+    -
+      value: 'Forest Ranch'
+      label: 'Forest Ranch'
+    -
+      value: 'Fort Bragg'
+      label: 'Fort Bragg'
+    -
+      value: Fortuna
+      label: Fortuna
+    -
+      value: 'Foster City'
+      label: 'Foster City'
+    -
+      value: 'Fountain Valley'
+      label: 'Fountain Valley'
+    -
+      value: 'Frazier Park'
+      label: 'Frazier Park'
+    -
+      value: Freedom
+      label: Freedom
+    -
+      value: Fremont
+      label: Fremont
+    -
+      value: Fresno
+      label: Fresno
+    -
+      value: Frogtown
+      label: Frogtown
+    -
+      value: Fullerton
+      label: Fullerton
+    -
+      value: Galt
+      label: Galt
+    -
+      value: Garberville
+      label: Garberville
+    -
+      value: Gardena
+      label: Gardena
+    -
+      value: 'Gardena Grove'
+      label: 'Gardena Grove'
+    -
+      value: Gilroy
+      label: Gilroy
+    -
+      value: Glendale
+      label: Glendale
+    -
+      value: Glendora
+      label: Glendora
+    -
+      value: 'Glen Ellen'
+      label: 'Glen Ellen'
+    -
+      value: Glenn
+      label: Glenn
+    -
+      value: 'Gold River'
+      label: 'Gold River'
+    -
+      value: Goleta
+      label: Goleta
+    -
+      value: 'Granada Hills'
+      label: 'Granada Hills'
+    -
+      value: 'Grand Terrace'
+      label: 'Grand Terrace'
+    -
+      value: 'Grass Valley'
+      label: 'Grass Valley'
+    -
+      value: Greenbrae
+      label: Greenbrae
+    -
+      value: Groveland
+      label: Groveland
+    -
+      value: 'Grover Beach'
+      label: 'Grover Beach'
+    -
+      value: Gualala
+      label: Gualala
+    -
+      value: Guerneville
+      label: Guerneville
+    -
+      value: 'Hacienda Heights'
+      label: 'Hacienda Heights'
+    -
+      value: 'Half Moon Bay'
+      label: 'Half Moon Bay'
+    -
+      value: Hanford
+      label: Hanford
+    -
+      value: 'Harbor City'
+      label: 'Harbor City'
+    -
+      value: Hawthorne
+      label: Hawthorne
+    -
+      value: Hayfork
+      label: Hayfork
+    -
+      value: Hayward
+      label: Hayward
+    -
+      value: Healdsburg
+      label: Healdsburg
+    -
+      value: Hemet
+      label: Hemet
+    -
+      value: Hercules
+      label: Hercules
+    -
+      value: 'Hermosa Beach'
+      label: 'Hermosa Beach'
+    -
+      value: Hesperia
+      label: Hesperia
+    -
+      value: Highland
+      label: Highland
+    -
+      value: Hinkley
+      label: Hinkley
+    -
+      value: Hollister
+      label: Hollister
+    -
+      value: Hollywood
+      label: Hollywood
+    -
+      value: Homeland
+      label: Homeland
+    -
+      value: Honcut
+      label: Honcut
+    -
+      value: Humboldt
+      label: Humboldt
+    -
+      value: 'Huntington Beach'
+      label: 'Huntington Beach'
+    -
+      value: 'Huntington Park'
+      label: 'Huntington Park'
+    -
+      value: Idyllwild
+      label: Idyllwild
+    -
+      value: Imperial
+      label: Imperial
+    -
+      value: 'Imperial Beach'
+      label: 'Imperial Beach'
+    -
+      value: Independence
+      label: Independence
+    -
+      value: 'Indian Wells'
+      label: 'Indian Wells'
+    -
+      value: Indio
+      label: Indio
+    -
+      value: Inglewood
+      label: Inglewood
+    -
+      value: Inverness
+      label: Inverness
+    -
+      value: Ione
+      label: Ione
+    -
+      value: Irvine
+      label: Irvine
+    -
+      value: Irwindale
+      label: Irwindale
+    -
+      value: 'Isla Vista'
+      label: 'Isla Vista'
+    -
+      value: Isleton
+      label: Isleton
+    -
+      value: Jackson
+      label: Jackson
+    -
+      value: Jacumba
+      label: Jacumba
+    -
+      value: Jamestown
+      label: Jamestown
+    -
+      value: Jamul
+      label: Jamul
+    -
+      value: Jenner
+      label: Jenner
+    -
+      value: 'Joshua Tree'
+      label: 'Joshua Tree'
+    -
+      value: Julian
+      label: Julian
+    -
+      value: Kelseyville
+      label: Kelseyville
+    -
+      value: Kensington
+      label: Kensington
+    -
+      value: Kentfield
+      label: Kentfield
+    -
+      value: Kenwood
+      label: Kenwood
+    -
+      value: 'King City'
+      label: 'King City'
+    -
+      value: Klamath
+      label: Klamath
+    -
+      value: 'Klamath River'
+      label: 'Klamath River'
+    -
+      value: 'La Canada'
+      label: 'La Canada'
+    -
+      value: 'La Canada Flintridge'
+      label: 'La Canada Flintridge'
+    -
+      value: 'La Crescenta'
+      label: 'La Crescenta'
+    -
+      value: 'La Habra'
+      label: 'La Habra'
+    -
+      value: 'La Honda'
+      label: 'La Honda'
+    -
+      value: 'La Jolla'
+      label: 'La Jolla'
+    -
+      value: 'La Mesa'
+      label: 'La Mesa'
+    -
+      value: 'La Mirada'
+      label: 'La Mirada'
+    -
+      value: 'La Palma'
+      label: 'La Palma'
+    -
+      value: 'La Quinta'
+      label: 'La Quinta'
+    -
+      value: 'La Verne'
+      label: 'La Verne'
+    -
+      value: 'Ladera Ranch'
+      label: 'Ladera Ranch'
+    -
+      value: Lafayette
+      label: Lafayette
+    -
+      value: 'Laguna Beach'
+      label: 'Laguna Beach'
+    -
+      value: 'Laguna Hills'
+      label: 'Laguna Hills'
+    -
+      value: 'Laguna Niguel'
+      label: 'Laguna Niguel'
+    -
+      value: 'Lake Almanor'
+      label: 'Lake Almanor'
+    -
+      value: 'Lake Arrowhead'
+      label: 'Lake Arrowhead'
+    -
+      value: 'Lake City'
+      label: 'Lake City'
+    -
+      value: 'Lake Elsinore'
+      label: 'Lake Elsinore'
+    -
+      value: 'Lake Forest'
+      label: 'Lake Forest'
+    -
+      value: 'Lake Isabella'
+      label: 'Lake Isabella'
+    -
+      value: Lakeport
+      label: Lakeport
+    -
+      value: Lakeside
+      label: Lakeside
+    -
+      value: 'Lake Tahoe'
+      label: 'Lake Tahoe'
+    -
+      value: 'Lakeview Terrace'
+      label: 'Lakeview Terrace'
+    -
+      value: Lakewood
+      label: Lakewood
+    -
+      value: Lamont
+      label: Lamont
+    -
+      value: Lancaster
+      label: Lancaster
+    -
+      value: Larkspur
+      label: Larkspur
+    -
+      value: Lathrop
+      label: Lathrop
+    -
+      value: Lawndale
+      label: Lawndale
+    -
+      value: 'Leggett Valley'
+      label: 'Leggett Valley'
+    -
+      value: 'Lemon Grove'
+      label: 'Lemon Grove'
+    -
+      value: Lemoore
+      label: Lemoore
+    -
+      value: Lewiston
+      label: Lewiston
+    -
+      value: Littlerock
+      label: Littlerock
+    -
+      value: Livermore
+      label: Livermore
+    -
+      value: Llano
+      label: Llano
+    -
+      value: Lodi
+      label: Lodi
+    -
+      value: Loleta
+      label: Loleta
+    -
+      value: Lomita
+      label: Lomita
+    -
+      value: Lompoc
+      label: Lompoc
+    -
+      value: 'Long Beach'
+      label: 'Long Beach'
+    -
+      value: Loomis
+      label: Loomis
+    -
+      value: 'Los Alamitos'
+      label: 'Los Alamitos'
+    -
+      value: 'Los Altos'
+      label: 'Los Altos'
+    -
+      value: 'Los Altos Hills'
+      label: 'Los Altos Hills'
+    -
+      value: 'Los Angeles'
+      label: 'Los Angeles'
+    -
+      value: 'Los Banos'
+      label: 'Los Banos'
+    -
+      value: 'Los Gatos'
+      label: 'Los Gatos'
+    -
+      value: 'Los Osos'
+      label: 'Los Osos'
+    -
+      value: Lotus
+      label: Lotus
+    -
+      value: 'Lower Lake'
+      label: 'Lower Lake'
+    -
+      value: Magalia
+      label: Magalia
+    -
+      value: Malibu
+      label: Malibu
+    -
+      value: 'Mammoth Lakes'
+      label: 'Mammoth Lakes'
+    -
+      value: 'Manhattan Beach'
+      label: 'Manhattan Beach'
+    -
+      value: Manteca
+      label: Manteca
+    -
+      value: Manton
+      label: Manton
+    -
+      value: Marina
+      label: Marina
+    -
+      value: 'Marina del Rey'
+      label: 'Marina del Rey'
+    -
+      value: Mariposa
+      label: Mariposa
+    -
+      value: Martinez
+      label: Martinez
+    -
+      value: Marysville
+      label: Marysville
+    -
+      value: 'McClellan AFB'
+      label: 'McClellan AFB'
+    -
+      value: McKinleyville
+      label: McKinleyville
+    -
+      value: 'Meadow Vista'
+      label: 'Meadow Vista'
+    -
+      value: Mendocino
+      label: Mendocino
+    -
+      value: 'Menlo Park'
+      label: 'Menlo Park'
+    -
+      value: Merced
+      label: Merced
+    -
+      value: Middletown
+      label: Middletown
+    -
+      value: 'Midway City'
+      label: 'Midway City'
+    -
+      value: Millbrae
+      label: Millbrae
+    -
+      value: 'Mill Valley'
+      label: 'Mill Valley'
+    -
+      value: Milpitas
+      label: Milpitas
+    -
+      value: 'Mira Loma'
+      label: 'Mira Loma'
+    -
+      value: 'Mission Hills'
+      label: 'Mission Hills'
+    -
+      value: 'Mission Viejo'
+      label: 'Mission Viejo'
+    -
+      value: Modesto
+      label: Modesto
+    -
+      value: 'Moffett Field'
+      label: 'Moffett Field'
+    -
+      value: Mojave
+      label: Mojave
+    -
+      value: 'Monarch Beach'
+      label: 'Monarch Beach'
+    -
+      value: 'Mono Hot Springs'
+      label: 'Mono Hot Springs'
+    -
+      value: Monrovia
+      label: Monrovia
+    -
+      value: Montague
+      label: Montague
+    -
+      value: Montara
+      label: Montara
+    -
+      value: Montclair
+      label: Montclair
+    -
+      value: Montebrllo
+      label: Montebrllo
+    -
+      value: Montecito
+      label: Montecito
+    -
+      value: Monterey
+      label: Monterey
+    -
+      value: 'Monterey Park'
+      label: 'Monterey Park'
+    -
+      value: 'Monte Sereno'
+      label: 'Monte Sereno'
+    -
+      value: Montrose
+      label: Montrose
+    -
+      value: Moorpark
+      label: Moorpark
+    -
+      value: Moraga
+      label: Moraga
+    -
+      value: 'Moreno Valley'
+      label: 'Moreno Valley'
+    -
+      value: 'Morgan Hill'
+      label: 'Morgan Hill'
+    -
+      value: 'Morro Bay'
+      label: 'Morro Bay'
+    -
+      value: 'Moss Beach'
+      label: 'Moss Beach'
+    -
+      value: 'Mount Shasta'
+      label: 'Mount Shasta'
+    -
+      value: 'Mount Wilson'
+      label: 'Mount Wilson'
+    -
+      value: 'Mountain Ranch'
+      label: 'Mountain Ranch'
+    -
+      value: 'Mountain View'
+      label: 'Mountain View'
+    -
+      value: Murrieta
+      label: Murrieta
+    -
+      value: Napa
+      label: Napa
+    -
+      value: 'National City'
+      label: 'National City'
+    -
+      value: 'Nevada City'
+      label: 'Nevada City'
+    -
+      value: 'New Almaden'
+      label: 'New Almaden'
+    -
+      value: Newark
+      label: Newark
+    -
+      value: 'Newbury Park'
+      label: 'Newbury Park'
+    -
+      value: Newhall
+      label: Newhall
+    -
+      value: Newport
+      label: Newport
+    -
+      value: 'Newport Beach'
+      label: 'Newport Beach'
+    -
+      value: Nicasio
+      label: Nicasio
+    -
+      value: Nice
+      label: Nice
+    -
+      value: Nipomo
+      label: Nipomo
+    -
+      value: Norco
+      label: Norco
+    -
+      value: 'North Highlands'
+      label: 'North Highlands'
+    -
+      value: 'North Hollywood'
+      label: 'North Hollywood'
+    -
+      value: 'North Manhattan Beach'
+      label: 'North Manhattan Beach'
+    -
+      value: Northridge
+      label: Northridge
+    -
+      value: Norwalk
+      label: Norwalk
+    -
+      value: Novato
+      label: Novato
+    -
+      value: Oakdale
+      label: Oakdale
+    -
+      value: Oakhurst
+      label: Oakhurst
+    -
+      value: Oakland
+      label: Oakland
+    -
+      value: Oakley
+      label: Oakley
+    -
+      value: 'Oak Park'
+      label: 'Oak Park'
+    -
+      value: Occidental
+      label: Occidental
+    -
+      value: Oceanside
+      label: Oceanside
+    -
+      value: Ojai
+      label: Ojai
+    -
+      value: Ontario
+      label: Ontario
+    -
+      value: Orange
+      label: Orange
+    -
+      value: Orangevale
+      label: Orangevale
+    -
+      value: 'Oregon House'
+      label: 'Oregon House'
+    -
+      value: Orinda
+      label: Orinda
+    -
+      value: Oroville
+      label: Oroville
+    -
+      value: Oxnard
+      label: Oxnard
+    -
+      value: Pacheco
+      label: Pacheco
+    -
+      value: Pacifica
+      label: Pacifica
+    -
+      value: 'Pacific Beach'
+      label: 'Pacific Beach'
+    -
+      value: 'Pacific Grove'
+      label: 'Pacific Grove'
+    -
+      value: 'Pacific Palisades'
+      label: 'Pacific Palisades'
+    -
+      value: Pacoima
+      label: Pacoima
+    -
+      value: Padadena
+      label: Padadena
+    -
+      value: Palermo
+      label: Palermo
+    -
+      value: Palmdale
+      label: Palmdale
+    -
+      value: 'Palm Desert'
+      label: 'Palm Desert'
+    -
+      value: 'Palm Springs'
+      label: 'Palm Springs'
+    -
+      value: 'Palo Alto'
+      label: 'Palo Alto'
+    -
+      value: 'Palo Cedro'
+      label: 'Palo Cedro'
+    -
+      value: 'Palos Verdes'
+      label: 'Palos Verdes'
+    -
+      value: Paradise
+      label: Paradise
+    -
+      value: Paramount
+      label: Paramount
+    -
+      value: Pasadena
+      label: Pasadena
+    -
+      value: 'Paso Robles'
+      label: 'Paso Robles'
+    -
+      value: Patterson
+      label: Patterson
+    -
+      value: 'Pebble Beach'
+      label: 'Pebble Beach'
+    -
+      value: 'Penn Valley'
+      label: 'Penn Valley'
+    -
+      value: Perris
+      label: Perris
+    -
+      value: Petaluma
+      label: Petaluma
+    -
+      value: 'Pico Rivera'
+      label: 'Pico Rivera'
+    -
+      value: Piedmont
+      label: Piedmont
+    -
+      value: Pinole
+      label: Pinole
+    -
+      value: Pioneer
+      label: Pioneer
+    -
+      value: 'Pismo Beach'
+      label: 'Pismo Beach'
+    -
+      value: Pittsburg
+      label: Pittsburg
+    -
+      value: Placentia
+      label: Placentia
+    -
+      value: Placerville
+      label: Placerville
+    -
+      value: 'Playa del Rey'
+      label: 'Playa del Rey'
+    -
+      value: 'Pleasant Hill'
+      label: 'Pleasant Hill'
+    -
+      value: Pleasanton
+      label: Pleasanton
+    -
+      value: Plymouth
+      label: Plymouth
+    -
+      value: 'Point Arena'
+      label: 'Point Arena'
+    -
+      value: 'Point Richmond'
+      label: 'Point Richmond'
+    -
+      value: Pomona
+      label: Pomona
+    -
+      value: 'Port Hueneme'
+      label: 'Port Hueneme'
+    -
+      value: 'Portola Hills'
+      label: 'Portola Hills'
+    -
+      value: 'Portola Valley'
+      label: 'Portola Valley'
+    -
+      value: 'Potter Valley'
+      label: 'Potter Valley'
+    -
+      value: Poway
+      label: Poway
+    -
+      value: Prather
+      label: Prather
+    -
+      value: 'Quartz Hill'
+      label: 'Quartz Hill'
+    -
+      value: Quincy
+      label: Quincy
+    -
+      value: Ramona
+      label: Ramona
+    -
+      value: 'Rancho Bernardo'
+      label: 'Rancho Bernardo'
+    -
+      value: 'Rancho Cordova'
+      label: 'Rancho Cordova'
+    -
+      value: 'Rancho Cucamonga'
+      label: 'Rancho Cucamonga'
+    -
+      value: 'Rancho Dominguez'
+      label: 'Rancho Dominguez'
+    -
+      value: 'Rancho La Costa'
+      label: 'Rancho La Costa'
+    -
+      value: 'Rancho Mirage'
+      label: 'Rancho Mirage'
+    -
+      value: 'Rancho Palos Verdes'
+      label: 'Rancho Palos Verdes'
+    -
+      value: 'Rancho Santa Fe'
+      label: 'Rancho Santa Fe'
+    -
+      value: 'Rancho Santa Margarita'
+      label: 'Rancho Santa Margarita'
+    -
+      value: 'Red Bluff'
+      label: 'Red Bluff'
+    -
+      value: Redding
+      label: Redding
+    -
+      value: Redlands
+      label: Redlands
+    -
+      value: 'Redondo Beach'
+      label: 'Redondo Beach'
+    -
+      value: Redway
+      label: Redway
+    -
+      value: 'Redwood City'
+      label: 'Redwood City'
+    -
+      value: 'Redwood Shores'
+      label: 'Redwood Shores'
+    -
+      value: Rescue
+      label: Rescue
+    -
+      value: Reseda
+      label: Reseda
+    -
+      value: Rialto
+      label: Rialto
+    -
+      value: Richmond
+      label: Richmond
+    -
+      value: Ridgecrest
+      label: Ridgecrest
+    -
+      value: Ripon
+      label: Ripon
+    -
+      value: Riverbank
+      label: Riverbank
+    -
+      value: Riverside
+      label: Riverside
+    -
+      value: Rocklin
+      label: Rocklin
+    -
+      value: 'Rohnert Park'
+      label: 'Rohnert Park'
+    -
+      value: 'Rolling Hills Estates'
+      label: 'Rolling Hills Estates'
+    -
+      value: Rosamond
+      label: Rosamond
+    -
+      value: Rosemead
+      label: Rosemead
+    -
+      value: Roseville
+      label: Roseville
+    -
+      value: Ross
+      label: Ross
+    -
+      value: 'Running Springs'
+      label: 'Running Springs'
+    -
+      value: Sacramento
+      label: Sacramento
+    -
+      value: Salida
+      label: Salida
+    -
+      value: Salinas
+      label: Salinas
+    -
+      value: 'Salton City'
+      label: 'Salton City'
+    -
+      value: 'San Anselmo'
+      label: 'San Anselmo'
+    -
+      value: 'San Bernardino'
+      label: 'San Bernardino'
+    -
+      value: 'San Bruno'
+      label: 'San Bruno'
+    -
+      value: 'San Carlos'
+      label: 'San Carlos'
+    -
+      value: 'San Clemente'
+      label: 'San Clemente'
+    -
+      value: 'San Diego'
+      label: 'San Diego'
+    -
+      value: 'San Dimas'
+      label: 'San Dimas'
+    -
+      value: 'San Fernando'
+      label: 'San Fernando'
+    -
+      value: 'San Francisco'
+      label: 'San Francisco'
+    -
+      value: 'San Gabriel'
+      label: 'San Gabriel'
+    -
+      value: 'San Gregorio'
+      label: 'San Gregorio'
+    -
+      value: 'San Jacinto'
+      label: 'San Jacinto'
+    -
+      value: 'San Jose'
+      label: 'San Jose'
+    -
+      value: 'San Juan Bautista'
+      label: 'San Juan Bautista'
+    -
+      value: 'San Juan Capistrano'
+      label: 'San Juan Capistrano'
+    -
+      value: 'San Leandro'
+      label: 'San Leandro'
+    -
+      value: 'San Lorenzo'
+      label: 'San Lorenzo'
+    -
+      value: 'San Luis Obispo'
+      label: 'San Luis Obispo'
+    -
+      value: 'San Marcos'
+      label: 'San Marcos'
+    -
+      value: 'San Marino'
+      label: 'San Marino'
+    -
+      value: 'San Martin'
+      label: 'San Martin'
+    -
+      value: 'San Mateo'
+      label: 'San Mateo'
+    -
+      value: 'San Pablo'
+      label: 'San Pablo'
+    -
+      value: 'San Pedro'
+      label: 'San Pedro'
+    -
+      value: 'San Rafael'
+      label: 'San Rafael'
+    -
+      value: 'San Ramon'
+      label: 'San Ramon'
+    -
+      value: 'San Ysidro'
+      label: 'San Ysidro'
+    -
+      value: Sanger
+      label: Sanger
+    -
+      value: 'Santa Ana'
+      label: 'Santa Ana'
+    -
+      value: 'Santa Barbara'
+      label: 'Santa Barbara'
+    -
+      value: 'Santa Barbara-by-the-Sea'
+      label: 'Santa Barbara-by-the-Sea'
+    -
+      value: 'Santa Clara'
+      label: 'Santa Clara'
+    -
+      value: 'Santa Clarita'
+      label: 'Santa Clarita'
+    -
+      value: 'Santa Cruz'
+      label: 'Santa Cruz'
+    -
+      value: 'Santa Fe Springs'
+      label: 'Santa Fe Springs'
+    -
+      value: 'Santa Margarita'
+      label: 'Santa Margarita'
+    -
+      value: 'Santa Maria'
+      label: 'Santa Maria'
+    -
+      value: 'Santa Monica'
+      label: 'Santa Monica'
+    -
+      value: 'Santa Paula'
+      label: 'Santa Paula'
+    -
+      value: 'Santa Rosa'
+      label: 'Santa Rosa'
+    -
+      value: 'Santa Ynez'
+      label: 'Santa Ynez'
+    -
+      value: Santee
+      label: Santee
+    -
+      value: Saratoga
+      label: Saratoga
+    -
+      value: Saugus
+      label: Saugus
+    -
+      value: Sausalito
+      label: Sausalito
+    -
+      value: Scotia
+      label: Scotia
+    -
+      value: 'Scotts Valley'
+      label: 'Scotts Valley'
+    -
+      value: 'Sea Beach'
+      label: 'Sea Beach'
+    -
+      value: 'Seal Ranch'
+      label: 'Seal Ranch'
+    -
+      value: Seaside
+      label: Seaside
+    -
+      value: Sebastopol
+      label: Sebastopol
+    -
+      value: Shafter
+      label: Shafter
+    -
+      value: 'Shelter Cove'
+      label: 'Shelter Cove'
+    -
+      value: Sherman
+      label: Sherman
+    -
+      value: 'Sherman Oaks'
+      label: 'Sherman Oaks'
+    -
+      value: 'Shingle Springs'
+      label: 'Shingle Springs'
+    -
+      value: 'Sierra Madre'
+      label: 'Sierra Madre'
+    -
+      value: 'Signal Hill'
+      label: 'Signal Hill'
+    -
+      value: Silverado
+      label: Silverado
+    -
+      value: 'Silverstrand Beach'
+      label: 'Silverstrand Beach'
+    -
+      value: 'Simi Valley'
+      label: 'Simi Valley'
+    -
+      value: Skyforest
+      label: Skyforest
+    -
+      value: 'Solana Beach'
+      label: 'Solana Beach'
+    -
+      value: 'Solano Beach'
+      label: 'Solano Beach'
+    -
+      value: Soledad
+      label: Soledad
+    -
+      value: Solvang
+      label: Solvang
+    -
+      value: Somerset
+      label: Somerset
+    -
+      value: Sonoma
+      label: Sonoma
+    -
+      value: Sonora
+      label: Sonora
+    -
+      value: Soquel
+      label: Soquel
+    -
+      value: 'South El Monte'
+      label: 'South El Monte'
+    -
+      value: 'South Gate'
+      label: 'South Gate'
+    -
+      value: 'South Lake Tahoe'
+      label: 'South Lake Tahoe'
+    -
+      value: 'South Pasadena'
+      label: 'South Pasadena'
+    -
+      value: 'South San Francisco'
+      label: 'South San Francisco'
+    -
+      value: 'South San Gabriel'
+      label: 'South San Gabriel'
+    -
+      value: 'Spring Valley'
+      label: 'Spring Valley'
+    -
+      value: Springville
+      label: Springville
+    -
+      value: 'St. Helena'
+      label: 'St. Helena'
+    -
+      value: Stanford
+      label: Stanford
+    -
+      value: Stanislaus
+      label: Stanislaus
+    -
+      value: Stockton
+      label: Stockton
+    -
+      value: 'Studio City'
+      label: 'Studio City'
+    -
+      value: Suisun
+      label: Suisun
+    -
+      value: 'Suisun City'
+      label: 'Suisun City'
+    -
+      value: Summerland
+      label: Summerland
+    -
+      value: 'Sun City'
+      label: 'Sun City'
+    -
+      value: Sunland
+      label: Sunland
+    -
+      value: Sunnyvale
+      label: Sunnyvale
+    -
+      value: Sunol
+      label: Sunol
+    -
+      value: 'Sunset Beach'
+      label: 'Sunset Beach'
+    -
+      value: 'Sun Valley'
+      label: 'Sun Valley'
+    -
+      value: Surfside
+      label: Surfside
+    -
+      value: Sylmar
+      label: Sylmar
+    -
+      value: Taft
+      label: Taft
+    -
+      value: 'Tahoe City'
+      label: 'Tahoe City'
+    -
+      value: 'Tahoe Vista'
+      label: 'Tahoe Vista'
+    -
+      value: Tarzana
+      label: Tarzana
+    -
+      value: Tecopa
+      label: Tecopa
+    -
+      value: Tehachapi
+      label: Tehachapi
+    -
+      value: Temecula
+      label: Temecula
+    -
+      value: 'Temple City'
+      label: 'Temple City'
+    -
+      value: Templeton
+      label: Templeton
+    -
+      value: 'Thousand Oaks'
+      label: 'Thousand Oaks'
+    -
+      value: 'Three Rivers'
+      label: 'Three Rivers'
+    -
+      value: Tiburon
+      label: Tiburon
+    -
+      value: Tierrasanta
+      label: Tierrasanta
+    -
+      value: 'Toluca Lake'
+      label: 'Toluca Lake'
+    -
+      value: Topanga
+      label: Topanga
+    -
+      value: Torrance
+      label: Torrance
+    -
+      value: Tracy
+      label: Tracy
+    -
+      value: Trinidad
+      label: Trinidad
+    -
+      value: Truckee
+      label: Truckee
+    -
+      value: Tujunga
+      label: Tujunga
+    -
+      value: Tulare
+      label: Tulare
+    -
+      value: Turlock
+      label: Turlock
+    -
+      value: Tustin
+      label: Tustin
+    -
+      value: 'Twain Harte'
+      label: 'Twain Harte'
+    -
+      value: 'Twentynine Palms'
+      label: 'Twentynine Palms'
+    -
+      value: Ukiah
+      label: Ukiah
+    -
+      value: 'Union City'
+      label: 'Union City'
+    -
+      value: 'Universal City'
+      label: 'Universal City'
+    -
+      value: Upland
+      label: Upland
+    -
+      value: Vacaville
+      label: Vacaville
+    -
+      value: Valencia
+      label: Valencia
+    -
+      value: Vallejo
+      label: Vallejo
+    -
+      value: 'Valley Center'
+      label: 'Valley Center'
+    -
+      value: 'Valley Glen'
+      label: 'Valley Glen'
+    -
+      value: 'Valley Village'
+      label: 'Valley Village'
+    -
+      value: 'Van Nuys'
+      label: 'Van Nuys'
+    -
+      value: Venice
+      label: Venice
+    -
+      value: 'Venice Beach'
+      label: 'Venice Beach'
+    -
+      value: Ventura
+      label: Ventura
+    -
+      value: Vernalis
+      label: Vernalis
+    -
+      value: Victor
+      label: Victor
+    -
+      value: Victorville
+      label: Victorville
+    -
+      value: 'Villa Park'
+      label: 'Villa Park'
+    -
+      value: Vineburg
+      label: Vineburg
+    -
+      value: Visalia
+      label: Visalia
+    -
+      value: Vista
+      label: Vista
+    -
+      value: Walnut
+      label: Walnut
+    -
+      value: 'Walnut Creek'
+      label: 'Walnut Creek'
+    -
+      value: 'Warm Springs'
+      label: 'Warm Springs'
+    -
+      value: Watsonville
+      label: Watsonville
+    -
+      value: Weaverville
+      label: Weaverville
+    -
+      value: Weed
+      label: Weed
+    -
+      value: 'West Covina'
+      label: 'West Covina'
+    -
+      value: 'West Hills'
+      label: 'West Hills'
+    -
+      value: 'West Hollywood'
+      label: 'West Hollywood'
+    -
+      value: Westlake
+      label: Westlake
+    -
+      value: 'Westlake Village'
+      label: 'Westlake Village'
+    -
+      value: 'West Lancaster'
+      label: 'West Lancaster'
+    -
+      value: 'West Los Angeles'
+      label: 'West Los Angeles'
+    -
+      value: 'West Menlo Park'
+      label: 'West Menlo Park'
+    -
+      value: Westminster
+      label: Westminster
+    -
+      value: 'West Sacramento'
+      label: 'West Sacramento'
+    -
+      value: 'West Tustin'
+      label: 'West Tustin'
+    -
+      value: Westwood
+      label: Westwood
+    -
+      value: 'Westwood Village'
+      label: 'Westwood Village'
+    -
+      value: Whitmore
+      label: Whitmore
+    -
+      value: Whittier
+      label: Whittier
+    -
+      value: Wildomar
+      label: Wildomar
+    -
+      value: Willits
+      label: Willits
+    -
+      value: Wilmington
+      label: Wilmington
+    -
+      value: Windsor
+      label: Windsor
+    -
+      value: Winnetka
+      label: Winnetka
+    -
+      value: Woodland
+      label: Woodland
+    -
+      value: 'Woodland Hills'
+      label: 'Woodland Hills'
+    -
+      value: Woodside
+      label: Woodside
+    -
+      value: 'Yorba Linda'
+      label: 'Yorba Linda'
+    -
+      value: Yountville
+      label: Yountville
+    -
+      value: Yreka
+      label: Yreka
+    -
+      value: 'Yuba City'
+      label: 'Yuba City'
+    -
+      value: Yucaipa
+      label: Yucaipa
+    -
+      value: 'Yucca Valley'
+      label: 'Yucca Valley'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

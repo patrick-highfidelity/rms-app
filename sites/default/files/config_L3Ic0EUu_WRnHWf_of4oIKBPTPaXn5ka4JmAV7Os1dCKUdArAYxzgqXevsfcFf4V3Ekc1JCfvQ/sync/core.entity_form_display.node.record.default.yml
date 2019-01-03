@@ -1,0 +1,1618 @@
+uuid: 750b0db3-37f4-4a55-a62a-61a2767aa117
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.record.body
+    - field.field.node.record.field_1st_language
+    - field.field.node.record.field_2nd_language
+    - field.field.node.record.field_action
+    - field.field.node.record.field_agency
+    - field.field.node.record.field_annuity_carrier
+    - field.field.node.record.field_annuity_commissions
+    - field.field.node.record.field_annuity_commissions_year
+    - field.field.node.record.field_annuity_effective_date
+    - field.field.node.record.field_annuity_product
+    - field.field.node.record.field_birth_month
+    - field.field.node.record.field_city
+    - field.field.node.record.field_company_name
+    - field.field.node.record.field_contact_name
+    - field.field.node.record.field_county
+    - field.field.node.record.field_date_of_birth
+    - field.field.node.record.field_dental_commissions
+    - field.field.node.record.field_dental_monthly_premium
+    - field.field.node.record.field_dental_plan
+    - field.field.node.record.field_ein
+    - field.field.node.record.field_email_address
+    - field.field.node.record.field_family_members
+    - field.field.node.record.field_first_name
+    - field.field.node.record.field_gender
+    - field.field.node.record.field_gross_monthly_premium
+    - field.field.node.record.field_health_cancel_date
+    - field.field.node.record.field_health_commissions
+    - field.field.node.record.field_health_commissions_year
+    - field.field.node.record.field_health_inactive_reason
+    - field.field.node.record.field_health_insurance
+    - field.field.node.record.field_health_insurance_status
+    - field.field.node.record.field_home_address
+    - field.field.node.record.field_household_annual_income
+    - field.field.node.record.field_ifp
+    - field.field.node.record.field_ifp_category
+    - field.field.node.record.field_ifp_effective_date
+    - field.field.node.record.field_ifp_previous_coverage
+    - field.field.node.record.field_immigration_status
+    - field.field.node.record.field_initial_commission
+    - field.field.node.record.field_insurance_type
+    - field.field.node.record.field_last_name
+    - field.field.node.record.field_life_carrier
+    - field.field.node.record.field_life_commissions
+    - field.field.node.record.field_life_commissions_year
+    - field.field.node.record.field_life_effective_date
+    - field.field.node.record.field_life_face_amount
+    - field.field.node.record.field_life_monthly_premium
+    - field.field.node.record.field_life_override
+    - field.field.node.record.field_life_product
+    - field.field.node.record.field_life_product_term
+    - field.field.node.record.field_life_product_type
+    - field.field.node.record.field_life_renewal
+    - field.field.node.record.field_mailing_city
+    - field.field.node.record.field_mailing_county
+    - field.field.node.record.field_mailing_state
+    - field.field.node.record.field_mailing_street
+    - field.field.node.record.field_mailing_zipcode
+    - field.field.node.record.field_marital_status
+    - field.field.node.record.field_medical_group
+    - field.field.node.record.field_medicare_effective_date
+    - field.field.node.record.field_medicare_health_plan
+    - field.field.node.record.field_medicare_number
+    - field.field.node.record.field_metal_tier
+    - field.field.node.record.field_middle_name
+    - field.field.node.record.field_nationality
+    - field.field.node.record.field_net_monthly_premium
+    - field.field.node.record.field_occupation
+    - field.field.node.record.field_partner_dob
+    - field.field.node.record.field_partner_name
+    - field.field.node.record.field_pcp
+    - field.field.node.record.field_phone_home
+    - field.field.node.record.field_phone_mobile
+    - field.field.node.record.field_phone_work
+    - field.field.node.record.field_policy_number
+    - field.field.node.record.field_premium_assistance
+    - field.field.node.record.field_previous_coverage
+    - field.field.node.record.field_referred_by
+    - field.field.node.record.field_relationship_to_member
+    - field.field.node.record.field_same_as_mailing_address
+    - field.field.node.record.field_social_security_number
+    - field.field.node.record.field_state
+    - field.field.node.record.field_street
+    - field.field.node.record.field_tax_filing_status
+    - field.field.node.record.field_total_death_benefit
+    - field.field.node.record.field_vision_commissions
+    - field.field.node.record.field_vision_monthly_premium
+    - field.field.node.record.field_vision_plan
+    - field.field.node.record.field_zipcode
+    - node.type.record
+  module:
+    - conditional_fields
+    - datetime
+    - field_group
+    - paragraphs
+    - path
+    - telephone
+third_party_settings:
+  field_group:
+    group_personal_information:
+      children:
+        - field_first_name
+        - field_last_name
+        - field_middle_name
+        - field_date_of_birth
+        - field_gender
+        - field_immigration_status
+        - field_nationality
+        - field_1st_language
+        - field_2nd_language
+        - field_social_security_number
+        - field_medicare_number
+      parent_name: group_client_information
+      weight: 25
+      format_type: tab
+      format_settings:
+        label: Identification
+        formatter: closed
+        description: 'General information about the client.'
+        required_fields: true
+        id: ''
+        classes: ''
+      label: Identification
+      region: content
+    group_contact_information:
+      children:
+        - field_phone_mobile
+        - field_phone_home
+        - field_phone_work
+        - field_email_address
+        - group_home_address
+        - field_same_as_mailing_address
+        - group_mailing_address
+      parent_name: group_client_information
+      weight: 27
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: 'Contact Information'
+      region: content
+    group_home_address:
+      children:
+        - field_street
+        - field_city
+        - field_state
+        - field_zipcode
+        - field_county
+      parent_name: group_contact_information
+      weight: 20
+      format_type: tab
+      format_settings:
+        label: 'Home Address'
+        element: div
+        show_label: true
+        label_element: h3
+        required_fields: true
+        attributes: ''
+        effect: collapsible
+        speed: fast
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+      label: 'Home Address'
+      region: content
+    group_mailing_address:
+      children:
+        - field_mailing_street
+        - field_mailing_city
+        - field_mailing_state
+        - field_mailing_zipcode
+        - field_mailing_county
+      parent_name: group_contact_information
+      weight: 22
+      format_type: tab
+      format_settings:
+        label: 'Mailing Address'
+        formatter: closed
+        description: Test
+        required_fields: true
+        id: ''
+        classes: ''
+      label: 'Mailing Address'
+      region: content
+    group_household:
+      children:
+        - field_marital_status
+        - field_partner_name
+        - field_partner_dob
+        - field_family_members
+        - group_testfieldset
+        - field_household_annual_income
+        - field_tax_filing_status
+        - field_occupation
+        - field_company_name
+        - field_ein
+      parent_name: group_client_information
+      weight: 26
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: Household
+      region: content
+    group_testfieldset:
+      children:
+        - field_contact_name
+        - field_relationship_to_member
+        - field_referred_by
+      parent_name: group_household
+      weight: 15
+      format_type: fieldset
+      format_settings:
+        label: 'Member Contact'
+        description: ''
+        required_fields: true
+        id: ''
+        classes: ''
+      label: 'Member Contact'
+      region: content
+    group_health_insurance:
+      children:
+        - field_health_insurance
+        - field_health_insurance_status
+        - field_health_inactive_reason
+        - field_health_cancel_date
+        - group_ifp_medicare
+        - group_commissions
+      parent_name: group_main_tabs
+      weight: 21
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+        direction: vertical
+      label: 'Health Insurance'
+      region: content
+    group_medicare:
+      children:
+        - field_medicare_health_plan
+        - field_medical_group
+        - field_pcp
+        - field_previous_coverage
+        - field_medicare_effective_date
+      parent_name: group_ifp_medicare
+      weight: 14
+      format_type: tab
+      format_settings:
+        label: 'Medicare Information'
+        formatter: closed
+        description: ''
+        required_fields: true
+        id: ''
+        classes: ''
+      label: 'Medicare Information'
+      region: content
+    group_ifp:
+      children:
+        - field_ifp_category
+        - field_ifp
+        - field_metal_tier
+        - field_ifp_previous_coverage
+        - field_ifp_effective_date
+        - field_gross_monthly_premium
+        - field_net_monthly_premium
+        - field_premium_assistance
+        - field_dental_plan
+        - field_dental_monthly_premium
+        - field_vision_plan
+        - field_vision_monthly_premium
+      parent_name: group_ifp_medicare
+      weight: 13
+      format_type: tab
+      format_settings:
+        label: 'IFP Information'
+        formatter: closed
+        description: ''
+        required_fields: true
+        id: ''
+        classes: ''
+      label: 'IFP Information'
+      region: content
+    group_health_commissions:
+      children:
+        - field_health_commissions
+      parent_name: group_commissions
+      weight: 27
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: 'Health Commissions'
+      region: content
+    group_dental_commissions:
+      children:
+        - field_dental_commissions
+      parent_name: group_commissions
+      weight: 28
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: 'Dental Commissions'
+      region: content
+    group_vision_commissions:
+      children:
+        - field_vision_commissions
+      parent_name: group_commissions
+      weight: 29
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: 'Vision Commissions'
+      region: content
+    group_commissions:
+      children:
+        - field_health_commissions_year
+        - group_health_commissions
+        - group_dental_commissions
+        - group_vision_commissions
+      parent_name: group_health_insurance
+      weight: 15
+      format_type: tabs
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: true
+        formatter: closed
+        direction: vertical
+      label: Commissions
+      region: content
+    group_main_tabs:
+      children:
+        - group_client_information
+        - group_health_insurance
+        - group_life_insurance
+        - group_annuity
+      parent_name: ''
+      weight: 8
+      format_type: tabs
+      format_settings:
+        id: ''
+        classes: ''
+        direction: horizontal
+      label: 'Main Tabs'
+      region: content
+    group_ifp_medicare:
+      children:
+        - group_ifp
+        - group_medicare
+      parent_name: group_health_insurance
+      weight: 12
+      format_type: tabs
+      format_settings:
+        id: ''
+        classes: ''
+        direction: horizontal
+      label: IFP/Medicare
+      region: content
+    group_client_information:
+      children:
+        - group_personal_information
+        - group_household
+        - group_contact_information
+      parent_name: group_main_tabs
+      weight: 20
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: open
+        description: ''
+        required_fields: true
+      label: 'Client Information'
+      region: content
+    group_life_insurance:
+      children:
+        - field_agency
+        - field_life_carrier
+        - field_life_product_type
+        - field_life_product_term
+        - field_life_product
+        - field_policy_number
+        - field_life_face_amount
+        - field_total_death_benefit
+        - field_life_monthly_premium
+        - field_life_effective_date
+        - group_life_commissions_tabs
+      parent_name: group_main_tabs
+      weight: 22
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: 'Life Insurance'
+      region: content
+    group_life_commissions_tabs:
+      children:
+        - field_life_commissions_year
+        - group_life_commission_tab
+        - group_life_renewal_tab
+        - group_life_override_tab
+      parent_name: group_life_insurance
+      weight: 19
+      format_type: tabs
+      format_settings:
+        id: ''
+        classes: ''
+        direction: vertical
+      label: 'Life Commissions Tabs'
+      region: content
+    group_life_commission_tab:
+      children:
+        - field_life_commissions
+      parent_name: group_life_commissions_tabs
+      weight: 31
+      format_type: tab
+      format_settings:
+        label: 'Life Commissions'
+        formatter: open
+        description: ''
+        required_fields: true
+        id: ''
+        classes: ''
+      label: 'Life Commissions'
+      region: content
+    group_life_renewal_tab:
+      children:
+        - field_life_renewal
+      parent_name: group_life_commissions_tabs
+      weight: 32
+      format_type: tab
+      format_settings:
+        label: 'Life Renewal'
+        formatter: closed
+        description: ''
+        required_fields: true
+        id: ''
+        classes: ''
+      label: 'Life Renewal'
+      region: content
+    group_life_override_tab:
+      children:
+        - field_life_override
+      parent_name: group_life_commissions_tabs
+      weight: 33
+      format_type: tab
+      format_settings:
+        label: 'Life Override'
+        formatter: closed
+        description: ''
+        required_fields: true
+        id: ''
+        classes: ''
+      label: 'Life Override'
+      region: content
+    group_annuity:
+      children:
+        - field_annuity_carrier
+        - field_annuity_product
+        - field_initial_commission
+        - field_annuity_effective_date
+        - field_annuity_commissions_year
+        - field_annuity_commissions
+      parent_name: group_main_tabs
+      weight: 23
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: Annuity
+      region: content
+id: node.record.default
+targetEntityType: node
+bundle: record
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_1st_language:
+    weight: 16
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_2nd_language:
+    weight: 17
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_agency:
+    weight: 9
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_annuity_carrier:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_annuity_commissions:
+    type: entity_reference_paragraphs
+    weight: 15
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_annuity_commissions_year:
+    weight: 14
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_annuity_effective_date:
+    weight: 13
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_annuity_product:
+    weight: 11
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_city:
+    weight: 14
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_company_name:
+    weight: 22
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_contact_name:
+    weight: 16
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_county:
+    weight: 17
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_date_of_birth:
+    weight: 12
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_dental_commissions:
+    type: entity_reference_paragraphs
+    weight: 13
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_dental_monthly_premium:
+    weight: 22
+    settings:
+      placeholder: ''
+    third_party_settings:
+      conditional_fields:
+        648309f2-4b64-4ac1-8871-688e4b11ccfc:
+          dependee: field_health_insurance
+          settings:
+            state: visible
+            condition: value
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              -
+                value: IFP
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: node
+          bundle: record
+    type: number
+    region: content
+  field_dental_plan:
+    weight: 21
+    settings: {  }
+    third_party_settings:
+      conditional_fields:
+        ba210b13-dc61-4c84-b870-fa417597d594:
+          dependee: field_health_insurance
+          settings:
+            state: visible
+            condition: value
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              -
+                value: IFP
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: node
+          bundle: record
+    type: options_select
+    region: content
+  field_ein:
+    weight: 23
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings:
+      conditional_fields:
+        66592f2e-2bd0-4173-8cc3-36f4f69f843a:
+          dependee: field_company_name
+          settings:
+            state: visible
+            condition: '!empty'
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              -
+                value: ''
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: node
+          bundle: record
+    type: string_textfield
+    region: content
+  field_email_address:
+    weight: 19
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_family_members:
+    weight: 14
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_first_name:
+    weight: 9
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_gender:
+    weight: 13
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_gross_monthly_premium:
+    weight: 18
+    settings:
+      placeholder: ''
+    third_party_settings:
+      conditional_fields:
+        2b720d4c-7ca5-4d70-9409-6000f90e2e3f:
+          dependee: field_health_insurance
+          settings:
+            state: visible
+            condition: value
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              -
+                value: IFP
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: node
+          bundle: record
+    type: number
+    region: content
+  field_health_cancel_date:
+    weight: 11
+    settings: {  }
+    third_party_settings:
+      conditional_fields:
+        2fe8cf30-b392-478d-b8f2-044b0c1c627a:
+          dependee: field_health_insurance_status
+          settings:
+            state: visible
+            condition: value
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              -
+                value: Inactive
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: node
+          bundle: record
+    type: datetime_default
+    region: content
+  field_health_commissions:
+    type: entity_reference_paragraphs
+    weight: 13
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_health_commissions_year:
+    weight: 26
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_health_inactive_reason:
+    weight: 10
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings:
+      conditional_fields:
+        ac4f3afb-3dbb-4069-84f3-1006612526dd:
+          dependee: field_health_insurance_status
+          settings:
+            state: visible
+            condition: value
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              -
+                value: Inactive
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: node
+          bundle: record
+    type: string_textfield
+    region: content
+  field_health_insurance:
+    weight: 8
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_health_insurance_status:
+    weight: 9
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_household_annual_income:
+    weight: 19
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_ifp:
+    weight: 14
+    settings: {  }
+    third_party_settings:
+      conditional_fields:
+        804ecb54-7332-46b5-a999-2efeda8848ae:
+          dependee: field_health_insurance
+          settings:
+            state: visible
+            condition: value
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form: {  }
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: node
+          bundle: record
+        1d75dcc9-eb59-4862-a231-baeb331b19d5:
+          dependee: field_health_insurance
+          settings:
+            state: visible
+            condition: value
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              -
+                value: IFP
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: node
+          bundle: record
+    type: options_select
+    region: content
+  field_ifp_category:
+    weight: 13
+    settings: {  }
+    third_party_settings:
+      conditional_fields:
+        a9e4d521-7195-4b47-9293-b0328b2fc0dc:
+          dependee: field_health_insurance
+          settings:
+            state: visible
+            condition: value
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              -
+                value: IFP
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: node
+          bundle: record
+    type: options_select
+    region: content
+  field_ifp_effective_date:
+    weight: 17
+    settings: {  }
+    third_party_settings:
+      conditional_fields:
+        2760ad56-b30d-4772-acb7-2bab6d17f0a6:
+          dependee: field_health_insurance
+          settings:
+            state: visible
+            condition: value
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              -
+                value: IFP
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: node
+          bundle: record
+    type: datetime_default
+    region: content
+  field_ifp_previous_coverage:
+    weight: 16
+    settings: {  }
+    third_party_settings:
+      conditional_fields:
+        6891a08f-ea22-4b66-890a-c7d1a53b8c2d:
+          dependee: field_health_insurance
+          settings:
+            state: visible
+            condition: value
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              -
+                value: IFP
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: node
+          bundle: record
+    type: options_select
+    region: content
+  field_immigration_status:
+    weight: 14
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_initial_commission:
+    weight: 12
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_insurance_type:
+    weight: 7
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  field_last_name:
+    weight: 10
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_life_carrier:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_life_commissions:
+    type: entity_reference_paragraphs
+    weight: 21
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_life_commissions_year:
+    weight: 30
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_life_effective_date:
+    weight: 18
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_life_face_amount:
+    weight: 15
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_life_monthly_premium:
+    weight: 17
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_life_override:
+    type: entity_reference_paragraphs
+    weight: 23
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_life_product:
+    weight: 13
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_life_product_term:
+    weight: 12
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_life_product_type:
+    weight: 11
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_life_renewal:
+    type: entity_reference_paragraphs
+    weight: 22
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_mailing_city:
+    weight: 13
+    settings: {  }
+    third_party_settings:
+      conditional_fields:
+        492139d8-a37f-420e-aef7-ac938db8bffd:
+          dependee: field_same_as_mailing_address
+          settings:
+            state: '!visible'
+            condition: checked
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form: {  }
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: node
+          bundle: record
+    type: options_select
+    region: content
+  field_mailing_county:
+    weight: 16
+    settings: {  }
+    third_party_settings:
+      conditional_fields:
+        ff4c6b55-4a9c-43c1-838a-4bc0bd426f7c:
+          dependee: field_same_as_mailing_address
+          settings:
+            state: '!visible'
+            condition: checked
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form: {  }
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: node
+          bundle: record
+    type: options_select
+    region: content
+  field_mailing_state:
+    weight: 14
+    settings: {  }
+    third_party_settings:
+      conditional_fields:
+        af5aea1a-ebf0-467c-accd-d2e21edf04f6:
+          dependee: field_same_as_mailing_address
+          settings:
+            state: '!visible'
+            condition: checked
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form: {  }
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: node
+          bundle: record
+    type: options_select
+    region: content
+  field_mailing_street:
+    weight: 12
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings:
+      conditional_fields:
+        95e4e730-aaf7-4df5-8712-a23750932026:
+          dependee: field_same_as_mailing_address
+          settings:
+            state: '!visible'
+            condition: checked
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form: {  }
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: node
+          bundle: record
+    type: string_textfield
+    region: content
+  field_mailing_zipcode:
+    weight: 15
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings:
+      conditional_fields:
+        f4652f1d-4bf5-4dd2-89d3-a82c3a00b83b:
+          dependee: field_same_as_mailing_address
+          settings:
+            state: '!visible'
+            condition: checked
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form: {  }
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: node
+          bundle: record
+    type: string_textfield
+    region: content
+  field_marital_status:
+    weight: 11
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_medical_group:
+    weight: 14
+    settings: {  }
+    third_party_settings:
+      conditional_fields:
+        85690f61-ad15-44f6-a0e2-7f84cea1796b:
+          dependee: field_health_insurance
+          settings:
+            state: visible
+            condition: value
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              -
+                value: Medicare
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: node
+          bundle: record
+    type: options_select
+    region: content
+  field_medicare_effective_date:
+    weight: 17
+    settings: {  }
+    third_party_settings:
+      conditional_fields:
+        9ba88b1d-a2e6-4f13-b4ab-3518b4bbe2d8:
+          dependee: field_health_insurance
+          settings:
+            state: visible
+            condition: value
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              -
+                value: Medicare
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: node
+          bundle: record
+    type: datetime_default
+    region: content
+  field_medicare_health_plan:
+    weight: 13
+    settings: {  }
+    third_party_settings:
+      conditional_fields:
+        f727797d-4181-4c67-9701-43906d355cb5:
+          dependee: field_health_insurance
+          settings:
+            state: visible
+            condition: value
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              -
+                value: Medicare
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: node
+          bundle: record
+    type: options_select
+    region: content
+  field_medicare_number:
+    weight: 19
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_metal_tier:
+    weight: 15
+    settings: {  }
+    third_party_settings:
+      conditional_fields:
+        ba8d69ba-083d-4039-8b51-1d486d55796b:
+          dependee: field_health_insurance
+          settings:
+            state: visible
+            condition: value
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              -
+                value: IFP
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: node
+          bundle: record
+    type: options_select
+    region: content
+  field_middle_name:
+    weight: 11
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_nationality:
+    weight: 15
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_net_monthly_premium:
+    weight: 19
+    settings:
+      placeholder: ''
+    third_party_settings:
+      conditional_fields:
+        b2358f88-7ddf-4876-820a-cf73f466b90e:
+          dependee: field_health_insurance
+          settings:
+            state: visible
+            condition: value
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              -
+                value: IFP
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: node
+          bundle: record
+    type: number
+    region: content
+  field_occupation:
+    weight: 21
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_partner_dob:
+    weight: 13
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_partner_name:
+    weight: 12
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_pcp:
+    weight: 15
+    settings: {  }
+    third_party_settings:
+      conditional_fields:
+        123d968a-f8a2-4a4f-a1d9-c1d895dee64f:
+          dependee: field_health_insurance
+          settings:
+            state: visible
+            condition: value
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              -
+                value: Medicare
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: node
+          bundle: record
+    type: options_select
+    region: content
+  field_phone_home:
+    weight: 17
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: telephone_default
+    region: content
+  field_phone_mobile:
+    weight: 16
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: telephone_default
+    region: content
+  field_phone_work:
+    weight: 18
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: telephone_default
+    region: content
+  field_policy_number:
+    weight: 14
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_premium_assistance:
+    weight: 20
+    settings:
+      placeholder: ''
+    third_party_settings:
+      conditional_fields:
+        ecac58aa-8ae4-4ea2-875c-47e9d567a19d:
+          dependee: field_health_insurance
+          settings:
+            state: visible
+            condition: value
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              -
+                value: IFP
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: node
+          bundle: record
+    type: number
+    region: content
+  field_previous_coverage:
+    weight: 16
+    settings: {  }
+    third_party_settings:
+      conditional_fields:
+        d67701db-5e16-4610-b507-3d1a1e61496b:
+          dependee: field_health_insurance
+          settings:
+            state: visible
+            condition: value
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              -
+                value: Medicare
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: node
+          bundle: record
+    type: options_select
+    region: content
+  field_referred_by:
+    weight: 18
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_relationship_to_member:
+    weight: 17
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_same_as_mailing_address:
+    weight: 21
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_social_security_number:
+    weight: 18
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_state:
+    weight: 15
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_street:
+    weight: 13
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_tax_filing_status:
+    weight: 20
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_total_death_benefit:
+    weight: 16
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_vision_commissions:
+    type: entity_reference_paragraphs
+    weight: 15
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_vision_monthly_premium:
+    weight: 24
+    settings:
+      placeholder: ''
+    third_party_settings:
+      conditional_fields:
+        e5091a90-5dd8-4fa7-8d97-5c5008e371d9:
+          dependee: field_health_insurance
+          settings:
+            state: visible
+            condition: value
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              -
+                value: IFP
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: node
+          bundle: record
+    type: number
+    region: content
+  field_vision_plan:
+    weight: 23
+    settings: {  }
+    third_party_settings:
+      conditional_fields:
+        206b8d93-16ad-46d9-a44f-996c72caa3fc:
+          dependee: field_health_insurance
+          settings:
+            state: visible
+            condition: value
+            grouping: AND
+            values_set: 1
+            value: ''
+            values: {  }
+            value_form:
+              -
+                value: IFP
+            effect: show
+            effect_options: {  }
+            selector: ''
+          entity_type: node
+          bundle: record
+    type: options_select
+    region: content
+  field_zipcode:
+    weight: 16
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  path:
+    type: path
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 3
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 6
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 4
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden:
+  body: true
+  field_action: true
+  field_birth_month: true
+  field_home_address: true

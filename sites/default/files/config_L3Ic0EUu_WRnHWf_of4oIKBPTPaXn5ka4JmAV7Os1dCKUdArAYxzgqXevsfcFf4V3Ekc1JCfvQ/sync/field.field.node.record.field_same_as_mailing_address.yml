@@ -1,0 +1,23 @@
+uuid: 9bab6209-d69d-44c4-aa3b-44b28c54e719
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_same_as_mailing_address
+    - node.type.record
+id: node.record.field_same_as_mailing_address
+field_name: field_same_as_mailing_address
+entity_type: node
+bundle: record
+label: 'Same as Mailing Address'
+description: 'Check if Home Address is the same as Mailing Address'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,39 @@
+uuid: 58274382-e7c6-42f3-96f9-1cec153ef4ce
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_life_product_term
+field_name: field_life_product_term
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '10'
+      label: '10'
+    -
+      value: '15'
+      label: '15'
+    -
+      value: '20'
+      label: '20'
+    -
+      value: '25'
+      label: '25'
+    -
+      value: '30'
+      label: '30'
+    -
+      value: '35'
+      label: '35'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

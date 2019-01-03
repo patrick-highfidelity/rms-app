@@ -1,0 +1,31 @@
+uuid: 2bd879b7-4dc8-48e0-bca7-99210a0911a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_life_commissions
+    - node.type.record
+    - paragraphs.paragraphs_type.commissions
+  module:
+    - entity_reference_revisions
+id: node.record.field_life_commissions
+field_name: field_life_commissions
+entity_type: node
+bundle: record
+label: 'Life Commissions'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      commissions: commissions
+    target_bundles_drag_drop:
+      commissions:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

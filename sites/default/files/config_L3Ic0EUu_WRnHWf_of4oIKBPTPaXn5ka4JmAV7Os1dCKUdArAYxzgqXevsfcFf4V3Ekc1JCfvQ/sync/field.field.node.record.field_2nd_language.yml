@@ -1,0 +1,21 @@
+uuid: bba745bd-dde1-45b6-9816-0c2f8282c599
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_2nd_language
+    - node.type.record
+  module:
+    - options
+id: node.record.field_2nd_language
+field_name: field_2nd_language
+entity_type: node
+bundle: record
+label: '2nd Language'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

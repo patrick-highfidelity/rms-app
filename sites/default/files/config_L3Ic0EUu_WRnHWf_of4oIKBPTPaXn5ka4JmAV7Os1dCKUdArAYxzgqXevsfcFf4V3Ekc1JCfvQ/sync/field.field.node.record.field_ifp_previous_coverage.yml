@@ -1,0 +1,21 @@
+uuid: 9e475996-3293-40da-8ee6-a39942d62d39
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ifp_previous_coverage
+    - node.type.record
+  module:
+    - options
+id: node.record.field_ifp_previous_coverage
+field_name: field_ifp_previous_coverage
+entity_type: node
+bundle: record
+label: 'Previous Coverage'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,162 @@
+uuid: 0e02513c-7c08-44ab-a4a8-bf619ac3db8b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.record.body
+    - field.field.node.record.field_1st_language
+    - field.field.node.record.field_2nd_language
+    - field.field.node.record.field_action
+    - field.field.node.record.field_birth_month
+    - field.field.node.record.field_city
+    - field.field.node.record.field_company_name
+    - field.field.node.record.field_contact_name
+    - field.field.node.record.field_county
+    - field.field.node.record.field_date_of_birth
+    - field.field.node.record.field_dental_commissions
+    - field.field.node.record.field_dental_monthly_premium
+    - field.field.node.record.field_dental_plan
+    - field.field.node.record.field_ein
+    - field.field.node.record.field_email_address
+    - field.field.node.record.field_family_members
+    - field.field.node.record.field_first_name
+    - field.field.node.record.field_gender
+    - field.field.node.record.field_gross_monthly_premium
+    - field.field.node.record.field_health_cancel_date
+    - field.field.node.record.field_health_commissions
+    - field.field.node.record.field_health_commissions_year
+    - field.field.node.record.field_health_inactive_reason
+    - field.field.node.record.field_health_insurance
+    - field.field.node.record.field_health_insurance_status
+    - field.field.node.record.field_home_address
+    - field.field.node.record.field_household_annual_income
+    - field.field.node.record.field_ifp
+    - field.field.node.record.field_ifp_category
+    - field.field.node.record.field_ifp_effective_date
+    - field.field.node.record.field_ifp_previous_coverage
+    - field.field.node.record.field_immigration_status
+    - field.field.node.record.field_insurance_type
+    - field.field.node.record.field_last_name
+    - field.field.node.record.field_mailing_city
+    - field.field.node.record.field_mailing_county
+    - field.field.node.record.field_mailing_state
+    - field.field.node.record.field_mailing_street
+    - field.field.node.record.field_mailing_zipcode
+    - field.field.node.record.field_marital_status
+    - field.field.node.record.field_medical_group
+    - field.field.node.record.field_medicare_effective_date
+    - field.field.node.record.field_medicare_health_plan
+    - field.field.node.record.field_medicare_number
+    - field.field.node.record.field_metal_tier
+    - field.field.node.record.field_middle_name
+    - field.field.node.record.field_nationality
+    - field.field.node.record.field_net_monthly_premium
+    - field.field.node.record.field_occupation
+    - field.field.node.record.field_partner_dob
+    - field.field.node.record.field_partner_name
+    - field.field.node.record.field_pcp
+    - field.field.node.record.field_phone_home
+    - field.field.node.record.field_phone_mobile
+    - field.field.node.record.field_phone_work
+    - field.field.node.record.field_premium_assistance
+    - field.field.node.record.field_previous_coverage
+    - field.field.node.record.field_referred_by
+    - field.field.node.record.field_relationship_to_member
+    - field.field.node.record.field_same_as_mailing_address
+    - field.field.node.record.field_social_security_number
+    - field.field.node.record.field_state
+    - field.field.node.record.field_street
+    - field.field.node.record.field_tax_filing_status
+    - field.field.node.record.field_vision_commissions
+    - field.field.node.record.field_vision_monthly_premium
+    - field.field.node.record.field_vision_plan
+    - field.field.node.record.field_zipcode
+    - node.type.record
+  module:
+    - text
+    - user
+id: node.record.teaser
+targetEntityType: node
+bundle: record
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_1st_language: true
+  field_2nd_language: true
+  field_action: true
+  field_birth_month: true
+  field_city: true
+  field_company_name: true
+  field_contact_name: true
+  field_county: true
+  field_date_of_birth: true
+  field_dental_commissions: true
+  field_dental_monthly_premium: true
+  field_dental_plan: true
+  field_ein: true
+  field_email_address: true
+  field_family_members: true
+  field_first_name: true
+  field_gender: true
+  field_gross_monthly_premium: true
+  field_health_cancel_date: true
+  field_health_commissions: true
+  field_health_commissions_year: true
+  field_health_inactive_reason: true
+  field_health_insurance: true
+  field_health_insurance_status: true
+  field_home_address: true
+  field_household_annual_income: true
+  field_ifp: true
+  field_ifp_category: true
+  field_ifp_effective_date: true
+  field_ifp_previous_coverage: true
+  field_immigration_status: true
+  field_insurance_type: true
+  field_last_name: true
+  field_mailing_city: true
+  field_mailing_county: true
+  field_mailing_state: true
+  field_mailing_street: true
+  field_mailing_zipcode: true
+  field_marital_status: true
+  field_medical_group: true
+  field_medicare_effective_date: true
+  field_medicare_health_plan: true
+  field_medicare_number: true
+  field_metal_tier: true
+  field_middle_name: true
+  field_nationality: true
+  field_net_monthly_premium: true
+  field_occupation: true
+  field_partner_dob: true
+  field_partner_name: true
+  field_pcp: true
+  field_phone_home: true
+  field_phone_mobile: true
+  field_phone_work: true
+  field_premium_assistance: true
+  field_previous_coverage: true
+  field_referred_by: true
+  field_relationship_to_member: true
+  field_same_as_mailing_address: true
+  field_social_security_number: true
+  field_state: true
+  field_street: true
+  field_tax_filing_status: true
+  field_vision_commissions: true
+  field_vision_monthly_premium: true
+  field_vision_plan: true
+  field_zipcode: true

@@ -1,0 +1,42 @@
+uuid: 9fe6b634-74a5-49a6-afbb-8470af93ecf0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_ifp_previous_coverage
+field_name: field_ifp_previous_coverage
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Anthem
+      label: Anthem
+    -
+      value: 'Blue Shield'
+      label: 'Blue Shield'
+    -
+      value: 'Direct Anthem'
+      label: 'Direct Anthem'
+    -
+      value: HealthNet
+      label: HealthNet
+    -
+      value: Kaiser
+      label: Kaiser
+    -
+      value: 'LA Care'
+      label: 'LA Care'
+    -
+      value: Molina
+      label: Molina
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

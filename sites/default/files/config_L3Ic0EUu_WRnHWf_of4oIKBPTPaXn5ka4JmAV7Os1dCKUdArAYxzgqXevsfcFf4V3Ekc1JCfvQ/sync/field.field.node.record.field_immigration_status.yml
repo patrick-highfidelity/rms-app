@@ -1,0 +1,21 @@
+uuid: bbc6c9d7-6886-41ae-aaa8-2c42fd0d029e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_immigration_status
+    - node.type.record
+  module:
+    - options
+id: node.record.field_immigration_status
+field_name: field_immigration_status
+entity_type: node
+bundle: record
+label: 'Immigration Status'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

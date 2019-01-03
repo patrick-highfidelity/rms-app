@@ -1,0 +1,33 @@
+uuid: 046a1ed0-7f42-4b38-85b8-0d529e85e0ce
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_vision_plan
+field_name: field_vision_plan
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Test
+      label: Test
+    -
+      value: Test2
+      label: Test2
+    -
+      value: Test3
+      label: Test3
+    -
+      value: Test4
+      label: Test4
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

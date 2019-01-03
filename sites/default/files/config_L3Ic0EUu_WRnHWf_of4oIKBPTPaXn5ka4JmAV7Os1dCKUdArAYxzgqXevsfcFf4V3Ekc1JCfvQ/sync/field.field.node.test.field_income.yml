@@ -1,0 +1,23 @@
+uuid: 64fffdee-84e7-4e99-b48e-2158fdfa6964
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_income
+    - node.type.test
+id: node.test.field_income
+field_name: field_income
+entity_type: node
+bundle: test
+label: Income
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: $
+  suffix: ''
+field_type: decimal

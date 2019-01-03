@@ -1,0 +1,23 @@
+uuid: 755bd9b7-8fdc-4cb4-9b2f-820050575635
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_health_commissions_year
+    - node.type.record
+  module:
+    - options
+id: node.record.field_health_commissions_year
+field_name: field_health_commissions_year
+entity_type: node
+bundle: record
+label: 'Commissions Year'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '2018'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

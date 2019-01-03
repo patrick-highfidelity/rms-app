@@ -1,0 +1,14 @@
+uuid: ac497c44-ef6f-460d-a32e-af0e94bcd31f
+name: 'Records Management System (COPY)'
+mail: pmartindesigns@gmail.com
+slogan: ''
+page:
+  403: /<front>
+  404: /<front>
+  front: /insurance
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

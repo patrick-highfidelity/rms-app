@@ -1,0 +1,19 @@
+uuid: ca81da27-1338-43f3-a272-9e73db40df9b
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_token_value
+    - node
+id: node.field_home_address
+field_name: field_home_address
+entity_type: node
+type: field_token_value
+settings: {  }
+module: field_token_value
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

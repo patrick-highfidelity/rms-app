@@ -1,0 +1,195 @@
+uuid: e9fc8281-bdcf-4a29-b109-5c4241485589
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_mailing_county
+field_name: field_mailing_county
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Alameda
+      label: Alameda
+    -
+      value: Alpine
+      label: Alpine
+    -
+      value: Amador
+      label: Amador
+    -
+      value: Butte
+      label: Butte
+    -
+      value: Calaveras
+      label: Calaveras
+    -
+      value: Colusa
+      label: Colusa
+    -
+      value: 'Contra Costa'
+      label: 'Contra Costa'
+    -
+      value: 'Del Norte'
+      label: 'Del Norte'
+    -
+      value: 'El Dorado'
+      label: 'El Dorado'
+    -
+      value: Fresno
+      label: Fresno
+    -
+      value: Glenn
+      label: Glenn
+    -
+      value: Humboldt
+      label: Humboldt
+    -
+      value: Imperial
+      label: Imperial
+    -
+      value: Inyo
+      label: Inyo
+    -
+      value: Kern
+      label: Kern
+    -
+      value: Kings
+      label: Kings
+    -
+      value: Lake
+      label: Lake
+    -
+      value: Lassen
+      label: Lassen
+    -
+      value: 'Los Angeles'
+      label: 'Los Angeles'
+    -
+      value: Madera
+      label: Madera
+    -
+      value: Marin
+      label: Marin
+    -
+      value: Mariposa
+      label: Mariposa
+    -
+      value: Mendocino
+      label: Mendocino
+    -
+      value: Merced
+      label: Merced
+    -
+      value: Modoc
+      label: Modoc
+    -
+      value: Mono
+      label: Mono
+    -
+      value: Monterey
+      label: Monterey
+    -
+      value: Napa
+      label: Napa
+    -
+      value: Nevada
+      label: Nevada
+    -
+      value: Orange
+      label: Orange
+    -
+      value: Placer
+      label: Placer
+    -
+      value: Plumas
+      label: Plumas
+    -
+      value: Riverside
+      label: Riverside
+    -
+      value: Sacramento
+      label: Sacramento
+    -
+      value: 'San Benito'
+      label: 'San Benito'
+    -
+      value: 'San Bernardino'
+      label: 'San Bernardino'
+    -
+      value: 'San Diego'
+      label: 'San Diego'
+    -
+      value: 'San Francisco'
+      label: 'San Francisco'
+    -
+      value: 'San Joaquin'
+      label: 'San Joaquin'
+    -
+      value: 'San Luis Obispo'
+      label: 'San Luis Obispo'
+    -
+      value: 'San Mateo'
+      label: 'San Mateo'
+    -
+      value: 'Santa Barbara'
+      label: 'Santa Barbara'
+    -
+      value: 'Santa Clara'
+      label: 'Santa Clara'
+    -
+      value: 'Santa Cruz'
+      label: 'Santa Cruz'
+    -
+      value: Shasta
+      label: Shasta
+    -
+      value: Sierra
+      label: Sierra
+    -
+      value: Siskiyou
+      label: Siskiyou
+    -
+      value: Solano
+      label: Solano
+    -
+      value: Sonoma
+      label: Sonoma
+    -
+      value: Stanislaus
+      label: Stanislaus
+    -
+      value: Sutter
+      label: Sutter
+    -
+      value: Tehama
+      label: Tehama
+    -
+      value: Trinity
+      label: Trinity
+    -
+      value: Tulare
+      label: Tulare
+    -
+      value: Tuolumne
+      label: Tuolumne
+    -
+      value: Ventura
+      label: Ventura
+    -
+      value: Yolo
+      label: Yolo
+    -
+      value: Yuba
+      label: Yuba
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

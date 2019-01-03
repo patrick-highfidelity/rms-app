@@ -1,0 +1,21 @@
+uuid: ad8f6471-3e18-4a53-b979-fb662f8461d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_insurance_type
+    - node.type.record
+  module:
+    - options
+id: node.record.field_insurance_type
+field_name: field_insurance_type
+entity_type: node
+bundle: record
+label: 'Insurance Type'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

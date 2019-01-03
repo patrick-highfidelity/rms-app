@@ -1,0 +1,19 @@
+uuid: e6969557-74b1-412a-91de-408f75c6f08c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_zipcode
+    - node.type.record
+id: node.record.field_zipcode
+field_name: field_zipcode
+entity_type: node
+bundle: record
+label: Zipcode
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

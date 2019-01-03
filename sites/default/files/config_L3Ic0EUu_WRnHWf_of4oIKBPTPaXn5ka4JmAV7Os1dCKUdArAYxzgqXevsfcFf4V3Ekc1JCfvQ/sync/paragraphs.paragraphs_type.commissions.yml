@@ -1,0 +1,9 @@
+uuid: 3aa26c82-3aa0-42c5-9bed-def64da79f23
+langcode: en
+status: true
+dependencies: {  }
+id: commissions
+label: Commissions
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

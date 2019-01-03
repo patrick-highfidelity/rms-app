@@ -1,0 +1,20 @@
+uuid: d7e4bd92-0d64-44f9-bfa5-276fad1dc2ae
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_december
+field_name: field_december
+entity_type: paragraph
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

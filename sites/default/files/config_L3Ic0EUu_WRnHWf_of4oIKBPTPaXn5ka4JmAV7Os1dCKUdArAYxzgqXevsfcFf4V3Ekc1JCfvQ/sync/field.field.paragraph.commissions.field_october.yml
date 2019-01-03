@@ -1,0 +1,25 @@
+uuid: 70eb6317-983a-4e0b-b7f3-281858b7aa0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_october
+    - paragraphs.paragraphs_type.commissions
+id: paragraph.commissions.field_october
+field_name: field_october
+entity_type: paragraph
+bundle: commissions
+label: October
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: !!float 0
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: $
+  suffix: ''
+field_type: decimal

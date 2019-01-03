@@ -1,0 +1,21 @@
+uuid: cd4a3a8e-bb1b-45d8-aede-1166a99007e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mailing_state
+    - node.type.record
+  module:
+    - options
+id: node.record.field_mailing_state
+field_name: field_mailing_state
+entity_type: node
+bundle: record
+label: State
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

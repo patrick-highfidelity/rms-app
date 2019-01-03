@@ -1,0 +1,21 @@
+uuid: f0dd8196-8025-45b7-a381-8f1ca4eb9e38
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_state
+    - node.type.record
+  module:
+    - options
+id: node.record.field_state
+field_name: field_state
+entity_type: node
+bundle: record
+label: State
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

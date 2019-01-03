@@ -1,0 +1,19 @@
+uuid: 13cd3bee-339b-4960-8acf-194d202c57bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_actionzzz
+    - node.type.test
+id: node.test.field_actionzzz
+field_name: field_actionzzz
+entity_type: node
+bundle: test
+label: Actionzzz
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

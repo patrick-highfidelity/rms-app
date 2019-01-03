@@ -1,0 +1,21 @@
+uuid: ee031c29-e7ee-487e-bb4b-52fd2f1746fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_previous_coverage
+    - node.type.record
+  module:
+    - options
+id: node.record.field_previous_coverage
+field_name: field_previous_coverage
+entity_type: node
+bundle: record
+label: 'Previous Coverage'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

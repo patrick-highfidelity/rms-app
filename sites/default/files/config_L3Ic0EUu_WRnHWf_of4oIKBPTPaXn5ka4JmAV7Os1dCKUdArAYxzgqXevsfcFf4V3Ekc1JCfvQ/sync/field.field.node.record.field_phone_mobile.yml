@@ -1,0 +1,21 @@
+uuid: 28746119-fdff-4af6-a71e-55e9c83c9081
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_phone_mobile
+    - node.type.record
+  module:
+    - telephone
+id: node.record.field_phone_mobile
+field_name: field_phone_mobile
+entity_type: node
+bundle: record
+label: 'Phone (mobile)'
+description: 'Format: xxx-xxx-xxxx'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

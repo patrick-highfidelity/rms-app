@@ -1,0 +1,22 @@
+uuid: 9433d6d2-f56b-4844-9880-cd7be609e868
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rms
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: rms_messages
+theme: rms
+region: status
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,21 @@
+uuid: 8b451078-c333-444b-a22f-ea1bd45dcc2e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ifp
+    - node.type.record
+  module:
+    - options
+id: node.record.field_ifp
+field_name: field_ifp
+entity_type: node
+bundle: record
+label: 'Individual Family Plan'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

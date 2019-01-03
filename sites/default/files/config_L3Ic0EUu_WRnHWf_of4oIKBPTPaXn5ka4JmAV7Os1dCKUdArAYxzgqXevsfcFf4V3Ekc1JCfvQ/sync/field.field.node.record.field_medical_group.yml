@@ -1,0 +1,21 @@
+uuid: 116c8c3a-6113-4f5b-99d6-45224fac8398
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_medical_group
+    - node.type.record
+  module:
+    - options
+id: node.record.field_medical_group
+field_name: field_medical_group
+entity_type: node
+bundle: record
+label: 'Medical Group'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

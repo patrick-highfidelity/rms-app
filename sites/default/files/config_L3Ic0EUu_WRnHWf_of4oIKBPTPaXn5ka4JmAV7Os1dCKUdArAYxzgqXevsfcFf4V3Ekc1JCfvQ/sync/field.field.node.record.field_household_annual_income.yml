@@ -1,0 +1,25 @@
+uuid: 9e5beaf4-1a9f-4cb6-859f-d80f6ba6cf43
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_household_annual_income
+    - node.type.record
+id: node.record.field_household_annual_income
+field_name: field_household_annual_income
+entity_type: node
+bundle: record
+label: 'Household Annual Income'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: !!float 0
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: $
+  suffix: ''
+field_type: decimal

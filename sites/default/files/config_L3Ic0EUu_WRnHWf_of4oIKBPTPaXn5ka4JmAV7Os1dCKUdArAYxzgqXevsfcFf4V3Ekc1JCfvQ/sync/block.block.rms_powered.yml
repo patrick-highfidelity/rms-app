@@ -1,0 +1,22 @@
+uuid: 14501cef-9c57-496d-8a5d-865227698aae
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - rms
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: rms_powered
+theme: rms
+region: footer
+weight: 5
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

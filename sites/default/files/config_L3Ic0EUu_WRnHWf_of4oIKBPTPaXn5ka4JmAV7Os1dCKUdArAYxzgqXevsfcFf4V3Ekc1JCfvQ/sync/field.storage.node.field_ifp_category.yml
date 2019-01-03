@@ -1,0 +1,27 @@
+uuid: 076a4d5a-9b31-4d8a-924e-7815590163cb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_ifp_category
+field_name: field_ifp_category
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Covered CA'
+      label: 'Covered CA'
+    -
+      value: Direct
+      label: Direct
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

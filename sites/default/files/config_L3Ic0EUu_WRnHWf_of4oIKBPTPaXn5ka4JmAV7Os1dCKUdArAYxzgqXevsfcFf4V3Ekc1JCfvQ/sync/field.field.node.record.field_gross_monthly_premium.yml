@@ -1,0 +1,23 @@
+uuid: d0c4fb8f-7813-4335-8bf5-a6c131b42e84
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gross_monthly_premium
+    - node.type.record
+id: node.record.field_gross_monthly_premium
+field_name: field_gross_monthly_premium
+entity_type: node
+bundle: record
+label: 'Gross Monthly Premium'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: $
+  suffix: ''
+field_type: decimal

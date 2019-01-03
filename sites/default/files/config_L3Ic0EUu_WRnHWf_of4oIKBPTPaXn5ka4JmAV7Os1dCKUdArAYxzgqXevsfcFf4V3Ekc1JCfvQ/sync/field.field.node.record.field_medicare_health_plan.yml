@@ -1,0 +1,21 @@
+uuid: b5064416-dac1-4c6f-b593-b2a4a41d3938
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_medicare_health_plan
+    - node.type.record
+  module:
+    - options
+id: node.record.field_medicare_health_plan
+field_name: field_medicare_health_plan
+entity_type: node
+bundle: record
+label: 'Medicare Health Plan'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

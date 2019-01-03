@@ -1,0 +1,39 @@
+uuid: 992c9666-3259-456e-b25f-1583778e1a3a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_annuity_product
+field_name: field_annuity_product
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Prosperity 10'
+      label: 'Prosperity 10'
+    -
+      value: 'Retirement Pro'
+      label: 'Retirement Pro'
+    -
+      value: 'Performance Plus'
+      label: 'Performance Plus'
+    -
+      value: 'Safe Income Plus'
+      label: 'Safe Income Plus'
+    -
+      value: 'AIG Protector 7'
+      label: 'AIG Protector 7'
+    -
+      value: 'AIG Protector 10'
+      label: 'AIG Protector 10'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,25 @@
+uuid: 61939dcf-0212-4c6f-8cbb-6ab4c63b8ec8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_february
+    - paragraphs.paragraphs_type.commissions
+id: paragraph.commissions.field_february
+field_name: field_february
+entity_type: paragraph
+bundle: commissions
+label: February
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: !!float 0
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: $
+  suffix: ''
+field_type: decimal

@@ -1,0 +1,25 @@
+uuid: 508b6867-f4d6-489c-81e0-938273872177
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_november
+    - paragraphs.paragraphs_type.commissions
+id: paragraph.commissions.field_november
+field_name: field_november
+entity_type: paragraph
+bundle: commissions
+label: November
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: !!float 0
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: $
+  suffix: ''
+field_type: decimal

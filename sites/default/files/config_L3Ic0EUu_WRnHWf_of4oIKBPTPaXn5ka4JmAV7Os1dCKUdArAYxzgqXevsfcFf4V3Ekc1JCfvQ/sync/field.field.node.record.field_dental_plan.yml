@@ -1,0 +1,21 @@
+uuid: 6e0b16c8-2faf-4fab-90e0-1d7ba817d16a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_dental_plan
+    - node.type.record
+  module:
+    - options
+id: node.record.field_dental_plan
+field_name: field_dental_plan
+entity_type: node
+bundle: record
+label: 'Dental Plan'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

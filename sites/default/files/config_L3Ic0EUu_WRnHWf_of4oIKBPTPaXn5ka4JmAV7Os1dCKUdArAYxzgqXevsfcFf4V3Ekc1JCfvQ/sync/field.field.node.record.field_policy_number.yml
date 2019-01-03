@@ -1,0 +1,19 @@
+uuid: 2d54358d-7be1-4437-9fbd-4c0bab372efd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_policy_number
+    - node.type.record
+id: node.record.field_policy_number
+field_name: field_policy_number
+entity_type: node
+bundle: record
+label: 'Policy Number'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

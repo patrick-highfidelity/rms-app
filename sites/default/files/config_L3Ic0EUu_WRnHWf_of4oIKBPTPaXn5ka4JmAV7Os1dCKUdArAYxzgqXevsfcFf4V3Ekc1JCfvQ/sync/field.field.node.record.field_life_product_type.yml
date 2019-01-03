@@ -1,0 +1,21 @@
+uuid: ce73b8d9-922a-464b-9d89-96b543510091
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_life_product_type
+    - node.type.record
+  module:
+    - options
+id: node.record.field_life_product_type
+field_name: field_life_product_type
+entity_type: node
+bundle: record
+label: 'Product Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

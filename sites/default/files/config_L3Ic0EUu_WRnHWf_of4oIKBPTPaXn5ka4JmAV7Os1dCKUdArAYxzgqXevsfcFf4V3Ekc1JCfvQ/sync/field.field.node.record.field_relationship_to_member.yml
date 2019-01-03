@@ -1,0 +1,19 @@
+uuid: 8d75632a-bb16-4409-8dc5-46e32a06435e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_relationship_to_member
+    - node.type.record
+id: node.record.field_relationship_to_member
+field_name: field_relationship_to_member
+entity_type: node
+bundle: record
+label: 'Relationship to Member'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

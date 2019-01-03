@@ -1,0 +1,22 @@
+uuid: 6e4e1be3-3d67-44f3-b1d9-f934819bbed5
+langcode: en
+status: true
+dependencies:
+  theme:
+    - rms
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: rms_local_tasks
+theme: rms
+region: tabs
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

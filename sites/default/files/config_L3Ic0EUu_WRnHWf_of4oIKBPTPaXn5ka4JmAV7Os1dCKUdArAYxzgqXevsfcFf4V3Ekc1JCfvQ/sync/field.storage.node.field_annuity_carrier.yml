@@ -1,0 +1,39 @@
+uuid: 4f433796-0d69-42c8-af26-8de816918387
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_annuity_carrier
+field_name: field_annuity_carrier
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: AIG
+      label: AIG
+    -
+      value: ANICO
+      label: ANICO
+    -
+      value: 'Fidelity & Guaranty'
+      label: 'Fidelity & Guaranty'
+    -
+      value: LSW
+      label: LSW
+    -
+      value: Assurity
+      label: Assurity
+    -
+      value: Phoenix
+      label: Phoenix
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

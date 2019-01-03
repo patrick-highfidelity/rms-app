@@ -1,0 +1,120 @@
+uuid: 5c9a4aff-01ab-4adf-9693-50c818c057ba
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_medical_group
+field_name: field_medical_group
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Accountable Health Care IPA'
+      label: 'Accountable Health Care IPA'
+    -
+      value: 'Advantage Core'
+      label: 'Advantage Core'
+    -
+      value: 'Affiliated Physicians IPA'
+      label: 'Affiliated Physicians IPA'
+    -
+      value: 'Alamitos IPA'
+      label: 'Alamitos IPA'
+    -
+      value: 'Allied Physicians'
+      label: 'Allied Physicians'
+    -
+      value: 'Alta Med'
+      label: 'Alta Med'
+    -
+      value: 'Angeles IPA'
+      label: 'Angeles IPA'
+    -
+      value: AppleCare
+      label: AppleCare
+    -
+      value: 'AppleCare Downey'
+      label: 'AppleCare Downey'
+    -
+      value: AVA
+      label: AVA
+    -
+      value: 'Doctor’s Choice'
+      label: 'Doctor’s Choice'
+    -
+      value: EHS
+      label: EHS
+    -
+      value: GEAG
+      label: GEAG
+    -
+      value: HCP
+      label: HCP
+    -
+      value: 'HCP Glendale'
+      label: 'HCP Glendale'
+    -
+      value: 'HCP SouthBay'
+      label: 'HCP SouthBay'
+    -
+      value: 'Lakewood IPA'
+      label: 'Lakewood IPA'
+    -
+      value: 'Med Supp'
+      label: 'Med Supp'
+    -
+      value: MediChoice
+      label: MediChoice
+    -
+      value: 'Monarch Healthcare'
+      label: 'Monarch Healthcare'
+    -
+      value: Omnicare
+      label: Omnicare
+    -
+      value: 'Pioneer Medical Group'
+      label: 'Pioneer Medical Group'
+    -
+      value: 'Regal Medical Group'
+      label: 'Regal Medical Group'
+    -
+      value: 'Regal Medical Group of OC'
+      label: 'Regal Medical Group of OC'
+    -
+      value: 'Regal Medical Group of South'
+      label: 'Regal Medical Group of South'
+    -
+      value: 'Regal Medical Group of SouthBay'
+      label: 'Regal Medical Group of SouthBay'
+    -
+      value: 'Regal Medical Group of South LA'
+      label: 'Regal Medical Group of South LA'
+    -
+      value: 'St Mary IPA'
+      label: 'St Mary IPA'
+    -
+      value: 'St Vincent IPA'
+      label: 'St Vincent IPA'
+    -
+      value: 'Steward IPA'
+      label: 'Steward IPA'
+    -
+      value: 'Torrance IPA'
+      label: 'Torrance IPA'
+    -
+      value: 'UC Irvine Medical Group'
+      label: 'UC Irvine Medical Group'
+    -
+      value: UPI
+      label: UPI
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

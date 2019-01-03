@@ -1,0 +1,20 @@
+uuid: 09ec6b87-e29f-4354-a7c8-44eae827a2e7
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+id: node.field_medicare_effective_date
+field_name: field_medicare_effective_date
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

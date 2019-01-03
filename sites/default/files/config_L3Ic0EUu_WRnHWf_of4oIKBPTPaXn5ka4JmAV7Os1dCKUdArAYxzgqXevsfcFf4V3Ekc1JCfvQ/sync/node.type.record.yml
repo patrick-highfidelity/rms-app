@@ -1,0 +1,18 @@
+uuid: 4fafa4ed-98d4-42f6-97d8-fe9b66649341
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Record
+type: record
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

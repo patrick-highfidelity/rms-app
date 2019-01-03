@@ -1,0 +1,27 @@
+uuid: 696ae31f-a3e2-4845-b8ab-30c93b27cb24
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_health_insurance
+field_name: field_health_insurance
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: IFP
+      label: IFP
+    -
+      value: Medicare
+      label: Medicare
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

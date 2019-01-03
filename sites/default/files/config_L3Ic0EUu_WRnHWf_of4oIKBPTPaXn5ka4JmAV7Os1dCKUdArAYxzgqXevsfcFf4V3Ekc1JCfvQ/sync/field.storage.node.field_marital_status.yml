@@ -1,0 +1,39 @@
+uuid: 30772289-974e-402b-8245-4c8658d00be0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_marital_status
+field_name: field_marital_status
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Married
+      label: Married
+    -
+      value: Single
+      label: Single
+    -
+      value: Divorced
+      label: Divorced
+    -
+      value: Widowed
+      label: Widowed
+    -
+      value: Dependent
+      label: Dependent
+    -
+      value: 'Never Married'
+      label: 'Never Married'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

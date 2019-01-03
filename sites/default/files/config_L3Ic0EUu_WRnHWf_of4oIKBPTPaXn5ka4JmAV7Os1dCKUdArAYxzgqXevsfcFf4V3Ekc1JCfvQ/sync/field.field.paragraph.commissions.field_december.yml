@@ -1,0 +1,25 @@
+uuid: 3de1846e-208f-4629-8be2-24f7d7a9e73f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_december
+    - paragraphs.paragraphs_type.commissions
+id: paragraph.commissions.field_december
+field_name: field_december
+entity_type: paragraph
+bundle: commissions
+label: December
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: !!float 0
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: $
+  suffix: ''
+field_type: decimal

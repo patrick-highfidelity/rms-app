@@ -1,0 +1,19 @@
+uuid: a1e6be85-1982-4388-a492-d46287a947ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_medicare_number
+    - node.type.record
+id: node.record.field_medicare_number
+field_name: field_medicare_number
+entity_type: node
+bundle: record
+label: 'Medicare Number'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

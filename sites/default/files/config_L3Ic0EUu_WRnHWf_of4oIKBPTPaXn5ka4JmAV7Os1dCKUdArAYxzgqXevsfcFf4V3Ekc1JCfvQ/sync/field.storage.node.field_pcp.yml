@@ -1,0 +1,153 @@
+uuid: 05f6b083-6b4d-45ad-b998-7843f2ec4f8f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_pcp
+field_name: field_pcp
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Andrea Vu'
+      label: 'Andrea Vu'
+    -
+      value: 'Angeles Perez'
+      label: 'Angeles Perez'
+    -
+      value: 'Antonio Reyes'
+      label: 'Antonio Reyes'
+    -
+      value: 'Anwar Arastu'
+      label: 'Anwar Arastu'
+    -
+      value: 'Carlos Bulaon'
+      label: 'Carlos Bulaon'
+    -
+      value: 'Chinedu Ugorji'
+      label: 'Chinedu Ugorji'
+    -
+      value: 'Copal Govindarajan'
+      label: 'Copal Govindarajan'
+    -
+      value: 'Corazon Medina'
+      label: 'Corazon Medina'
+    -
+      value: 'Dennis Sanchez'
+      label: 'Dennis Sanchez'
+    -
+      value: 'Edgar Banez'
+      label: 'Edgar Banez'
+    -
+      value: 'Edward Castro'
+      label: 'Edward Castro'
+    -
+      value: 'Emerico Csepanyi'
+      label: 'Emerico Csepanyi'
+    -
+      value: 'Estrella Aguinaldo'
+      label: 'Estrella Aguinaldo'
+    -
+      value: EVA
+      label: EVA
+    -
+      value: 'Florante Alejo'
+      label: 'Florante Alejo'
+    -
+      value: 'Franklin Lowe'
+      label: 'Franklin Lowe'
+    -
+      value: 'Gemelia Aguilera'
+      label: 'Gemelia Aguilera'
+    -
+      value: 'Gene Hawkin'
+      label: 'Gene Hawkin'
+    -
+      value: 'Gerald Ho'
+      label: 'Gerald Ho'
+    -
+      value: 'Irene Leech'
+      label: 'Irene Leech'
+    -
+      value: 'Jacqueline Aguiluz'
+      label: 'Jacqueline Aguiluz'
+    -
+      value: 'Jenny Batongmalaque'
+      label: 'Jenny Batongmalaque'
+    -
+      value: 'Jose Mari Elacion'
+      label: 'Jose Mari Elacion'
+    -
+      value: 'Josephine Choa'
+      label: 'Josephine Choa'
+    -
+      value: 'Juma Bharadia'
+      label: 'Juma Bharadia'
+    -
+      value: 'Kailash Dhamija'
+      label: 'Kailash Dhamija'
+    -
+      value: 'Lai Sen B'
+      label: 'Lai Sen B'
+    -
+      value: 'Lee Razalan'
+      label: 'Lee Razalan'
+    -
+      value: 'Lucita Cruz'
+      label: 'Lucita Cruz'
+    -
+      value: 'Malvin Yan'
+      label: 'Malvin Yan'
+    -
+      value: 'Malvin Yan - Lynwood'
+      label: 'Malvin Yan - Lynwood'
+    -
+      value: 'Malvin Yan - Maywood'
+      label: 'Malvin Yan - Maywood'
+    -
+      value: 'Manuel Aguilera'
+      label: 'Manuel Aguilera'
+    -
+      value: 'Mona Shah'
+      label: 'Mona Shah'
+    -
+      value: 'Nerciso Azurin'
+      label: 'Nerciso Azurin'
+    -
+      value: 'Paul Morata'
+      label: 'Paul Morata'
+    -
+      value: 'Petra Wong'
+      label: 'Petra Wong'
+    -
+      value: 'Rafaelito Victoria'
+      label: 'Rafaelito Victoria'
+    -
+      value: 'Reynaldo Makabali'
+      label: 'Reynaldo Makabali'
+    -
+      value: 'Roger Samawi'
+      label: 'Roger Samawi'
+    -
+      value: 'Ruth Arceo'
+      label: 'Ruth Arceo'
+    -
+      value: 'Sen Bin Lai'
+      label: 'Sen Bin Lai'
+    -
+      value: 'Vinh Nguyen'
+      label: 'Vinh Nguyen'
+    -
+      value: 'Xanthe Victoria'
+      label: 'Xanthe Victoria'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

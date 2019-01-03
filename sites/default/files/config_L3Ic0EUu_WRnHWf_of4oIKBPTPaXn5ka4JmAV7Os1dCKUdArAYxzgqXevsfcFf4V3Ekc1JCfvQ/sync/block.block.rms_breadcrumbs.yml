@@ -1,0 +1,22 @@
+uuid: 7db4edad-500b-4c56-81e1-fcdc5a6f683a
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - rms
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: rms_breadcrumbs
+theme: rms
+region: footer
+weight: -2
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

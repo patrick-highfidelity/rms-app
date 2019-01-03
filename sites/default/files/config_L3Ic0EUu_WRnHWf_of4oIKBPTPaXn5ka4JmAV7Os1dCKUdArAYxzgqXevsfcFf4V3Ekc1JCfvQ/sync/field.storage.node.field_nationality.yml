@@ -1,0 +1,48 @@
+uuid: 4f6c6c1c-87dc-48ca-98bd-2128e733b1ad
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_nationality
+field_name: field_nationality
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Asian
+      label: Asian
+    -
+      value: 'Asian (Filipino)'
+      label: 'Asian (Filipino)'
+    -
+      value: Hispanic
+      label: Hispanic
+    -
+      value: Black
+      label: Black
+    -
+      value: American
+      label: American
+    -
+      value: English
+      label: English
+    -
+      value: Nigerian
+      label: Nigerian
+    -
+      value: Japanese
+      label: Japanese
+    -
+      value: 'Mexican American'
+      label: 'Mexican American'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

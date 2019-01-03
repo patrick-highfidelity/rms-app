@@ -1,0 +1,25 @@
+uuid: 1e8fb27a-0ab7-4b57-a897-4cee9fdc9a91
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_august
+    - paragraphs.paragraphs_type.commissions
+id: paragraph.commissions.field_august
+field_name: field_august
+entity_type: paragraph
+bundle: commissions
+label: August
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: !!float 0
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: $
+  suffix: ''
+field_type: decimal

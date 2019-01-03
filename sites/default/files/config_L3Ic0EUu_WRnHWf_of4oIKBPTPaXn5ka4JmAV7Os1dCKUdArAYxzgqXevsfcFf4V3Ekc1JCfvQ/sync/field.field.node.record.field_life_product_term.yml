@@ -1,0 +1,21 @@
+uuid: 9bf3e0bb-bb84-49b0-af1c-4eb5d0892aec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_life_product_term
+    - node.type.record
+  module:
+    - options
+id: node.record.field_life_product_term
+field_name: field_life_product_term
+entity_type: node
+bundle: record
+label: 'Product Term'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,21 @@
+uuid: 2a933067-7c4c-42b9-afcd-8f2a3d24c151
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ifp_effective_date
+    - node.type.record
+  module:
+    - datetime
+id: node.record.field_ifp_effective_date
+field_name: field_ifp_effective_date
+entity_type: node
+bundle: record
+label: 'Effective Date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

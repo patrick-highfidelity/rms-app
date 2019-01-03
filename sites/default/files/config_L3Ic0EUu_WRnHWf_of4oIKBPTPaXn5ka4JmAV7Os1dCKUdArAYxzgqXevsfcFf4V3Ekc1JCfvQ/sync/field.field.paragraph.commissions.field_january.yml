@@ -1,0 +1,25 @@
+uuid: cf26aae1-bd8a-45de-a116-1fadbdae95aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_january
+    - paragraphs.paragraphs_type.commissions
+id: paragraph.commissions.field_january
+field_name: field_january
+entity_type: paragraph
+bundle: commissions
+label: January
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: !!float 0
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: $
+  suffix: ''
+field_type: decimal

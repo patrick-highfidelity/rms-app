@@ -1,0 +1,21 @@
+uuid: 68d5cf25-2b4b-4fec-b1e8-e87371c16c4e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nationality
+    - node.type.record
+  module:
+    - options
+id: node.record.field_nationality
+field_name: field_nationality
+entity_type: node
+bundle: record
+label: Nationality
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

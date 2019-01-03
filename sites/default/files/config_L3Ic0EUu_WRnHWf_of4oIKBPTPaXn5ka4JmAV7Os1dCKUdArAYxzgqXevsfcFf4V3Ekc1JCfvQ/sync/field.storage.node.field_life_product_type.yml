@@ -1,0 +1,30 @@
+uuid: 12ccf412-948c-4d92-85c4-6459678e97d7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_life_product_type
+field_name: field_life_product_type
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Term
+      label: Term
+    -
+      value: 'Permanent (UL)'
+      label: 'Permanent (UL)'
+    -
+      value: 'Permanent (WL)'
+      label: 'Permanent (WL)'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

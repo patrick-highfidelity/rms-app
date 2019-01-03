@@ -1,0 +1,21 @@
+uuid: 2c28d075-adea-4582-9ae0-b30037aa7fc7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tax_filing_status
+    - node.type.record
+  module:
+    - options
+id: node.record.field_tax_filing_status
+field_name: field_tax_filing_status
+entity_type: node
+bundle: record
+label: 'Tax Filing Status'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

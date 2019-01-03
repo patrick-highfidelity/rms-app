@@ -1,0 +1,25 @@
+uuid: 6316b0b9-3908-4f0f-8540-b2c867429c53
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_april
+    - paragraphs.paragraphs_type.commissions
+id: paragraph.commissions.field_april
+field_name: field_april
+entity_type: paragraph
+bundle: commissions
+label: April
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: !!float 0
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: $
+  suffix: ''
+field_type: decimal

@@ -1,0 +1,21 @@
+uuid: 3c90ed21-e9a2-4d40-8d49-3f45e189eaff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pcp
+    - node.type.record
+  module:
+    - options
+id: node.record.field_pcp
+field_name: field_pcp
+entity_type: node
+bundle: record
+label: 'Personal Care Physician (PCP)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,20 @@
+uuid: e2b06778-6c59-495b-adb9-36c039a5c203
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_gross_monthly_premium
+field_name: field_gross_monthly_premium
+entity_type: node
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

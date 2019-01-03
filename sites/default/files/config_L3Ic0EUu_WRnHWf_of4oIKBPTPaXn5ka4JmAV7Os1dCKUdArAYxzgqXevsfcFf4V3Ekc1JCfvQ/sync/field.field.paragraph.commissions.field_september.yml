@@ -1,0 +1,25 @@
+uuid: f405b323-6581-455e-9c82-152de63db227
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_september
+    - paragraphs.paragraphs_type.commissions
+id: paragraph.commissions.field_september
+field_name: field_september
+entity_type: paragraph
+bundle: commissions
+label: September
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: !!float 0
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: $
+  suffix: ''
+field_type: decimal

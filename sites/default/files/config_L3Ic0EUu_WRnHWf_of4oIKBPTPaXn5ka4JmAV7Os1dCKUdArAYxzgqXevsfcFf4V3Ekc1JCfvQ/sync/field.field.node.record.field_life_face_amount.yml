@@ -1,0 +1,25 @@
+uuid: 5da58bac-e3b5-4e0c-a9da-6cb2c983722c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_life_face_amount
+    - node.type.record
+id: node.record.field_life_face_amount
+field_name: field_life_face_amount
+entity_type: node
+bundle: record
+label: 'Life Face Amount'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: !!float 0
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: $
+  suffix: ''
+field_type: decimal

@@ -1,0 +1,25 @@
+uuid: a1c315e1-51fd-4e52-8811-87953618bc2c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_life_monthly_premium
+    - node.type.record
+id: node.record.field_life_monthly_premium
+field_name: field_life_monthly_premium
+entity_type: node
+bundle: record
+label: 'Life Monthly Premium'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: !!float 0
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: $
+  suffix: ''
+field_type: decimal

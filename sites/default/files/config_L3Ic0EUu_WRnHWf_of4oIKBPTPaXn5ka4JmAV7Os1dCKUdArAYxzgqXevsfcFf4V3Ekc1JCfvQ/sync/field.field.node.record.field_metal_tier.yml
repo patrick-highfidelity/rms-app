@@ -1,0 +1,21 @@
+uuid: 1df9c454-4489-4613-8ded-31178faf5b5f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_metal_tier
+    - node.type.record
+  module:
+    - options
+id: node.record.field_metal_tier
+field_name: field_metal_tier
+entity_type: node
+bundle: record
+label: 'Metal Tier'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

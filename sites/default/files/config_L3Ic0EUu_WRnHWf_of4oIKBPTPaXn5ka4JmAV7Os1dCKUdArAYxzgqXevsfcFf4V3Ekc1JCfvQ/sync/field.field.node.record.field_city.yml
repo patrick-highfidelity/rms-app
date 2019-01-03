@@ -1,0 +1,21 @@
+uuid: 794d4ee8-3b66-42e9-b512-993611b18530
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_city
+    - node.type.record
+  module:
+    - options
+id: node.record.field_city
+field_name: field_city
+entity_type: node
+bundle: record
+label: City
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

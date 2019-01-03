@@ -1,0 +1,33 @@
+uuid: 3ad500a8-83a2-4bf3-a17a-8ad272a83821
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_life_product
+field_name: field_life_product
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'LSW FlexLife II'
+      label: 'LSW FlexLife II'
+    -
+      value: 'AIC QOL Accumulator +'
+      label: 'AIC QOL Accumulator +'
+    -
+      value: ANICO
+      label: ANICO
+    -
+      value: 'FGL Gold Synergy'
+      label: 'FGL Gold Synergy'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

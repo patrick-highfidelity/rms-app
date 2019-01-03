@@ -1,0 +1,21 @@
+uuid: 40c954ae-b28a-4f09-8993-eca499b53aff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_medicare_effective_date
+    - node.type.record
+  module:
+    - datetime
+id: node.record.field_medicare_effective_date
+field_name: field_medicare_effective_date
+entity_type: node
+bundle: record
+label: 'Effective Date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

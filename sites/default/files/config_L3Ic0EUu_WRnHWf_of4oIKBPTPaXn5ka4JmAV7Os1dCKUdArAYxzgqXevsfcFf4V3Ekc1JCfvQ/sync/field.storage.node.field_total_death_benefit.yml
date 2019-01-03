@@ -1,0 +1,20 @@
+uuid: 42708dea-7960-4f14-831d-ff066f3e0332
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_total_death_benefit
+field_name: field_total_death_benefit
+entity_type: node
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,21 @@
+uuid: 0be635b0-1162-4294-9285-c743ce2ca38e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mailing_county
+    - node.type.record
+  module:
+    - options
+id: node.record.field_mailing_county
+field_name: field_mailing_county
+entity_type: node
+bundle: record
+label: County
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

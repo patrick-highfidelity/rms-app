@@ -1,0 +1,21 @@
+uuid: f2134bad-c8d6-4acd-b5b0-b61b82f00077
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mailing_city
+    - node.type.record
+  module:
+    - options
+id: node.record.field_mailing_city
+field_name: field_mailing_city
+entity_type: node
+bundle: record
+label: City
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
