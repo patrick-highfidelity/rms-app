@@ -1,0 +1,8 @@
+[04-Jan-2019 07:41:48 UTC] PHP Fatal error:  Trait 'Drupal\entity_reference_revisions\EntityNeedsSaveTrait' not found in /home/e3vlb3m5qtec/public_html/dev/rms-app/modules/paragraphs/src/Entity/Paragraph.php on line 92
+[04-Jan-2019 07:41:59 UTC] PHP Fatal error:  Trait 'Drupal\entity_reference_revisions\EntityNeedsSaveTrait' not found in /home/e3vlb3m5qtec/public_html/dev/rms-app/modules/paragraphs/src/Entity/Paragraph.php on line 92
+[04-Jan-2019 07:42:13 UTC] PHP Fatal error:  Trait 'Drupal\entity_reference_revisions\EntityNeedsSaveTrait' not found in /home/e3vlb3m5qtec/public_html/dev/rms-app/modules/paragraphs/src/Entity/Paragraph.php on line 92
+[04-Jan-2019 07:42:24 UTC] PHP Fatal error:  Trait 'Drupal\entity_reference_revisions\EntityNeedsSaveTrait' not found in /home/e3vlb3m5qtec/public_html/dev/rms-app/modules/paragraphs/src/Entity/Paragraph.php on line 92
+[04-Jan-2019 07:42:26 UTC] PHP Fatal error:  Trait 'Drupal\entity_reference_revisions\EntityNeedsSaveTrait' not found in /home/e3vlb3m5qtec/public_html/dev/rms-app/modules/paragraphs/src/Entity/Paragraph.php on line 92
+[04-Jan-2019 07:42:56 UTC] PHP Fatal error:  Trait 'Drupal\entity_reference_revisions\EntityNeedsSaveTrait' not found in /home/e3vlb3m5qtec/public_html/dev/rms-app/modules/paragraphs/src/Entity/Paragraph.php on line 92
+[04-Jan-2019 07:43:00 UTC] PHP Fatal error:  Trait 'Drupal\entity_reference_revisions\EntityNeedsSaveTrait' not found in /home/e3vlb3m5qtec/public_html/dev/rms-app/modules/paragraphs/src/Entity/Paragraph.php on line 92
+[04-Jan-2019 07:43:03 UTC] PHP Fatal error:  Trait 'Drupal\entity_reference_revisions\EntityNeedsSaveTrait' not found in /home/e3vlb3m5qtec/public_html/dev/rms-app/modules/paragraphs/src/Entity/Paragraph.php on line 92
