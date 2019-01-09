@@ -786,7 +786,7 @@ $settings['entity_update_batch_size'] = 50;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'rms-app-final',
+  'database' => 'rms-app-copy',
   'username' => 'root',
   'password' => 'root',
   'prefix' => '',
@@ -797,3 +797,5 @@ $databases['default']['default'] = array (
 );
 $settings['install_profile'] = 'standard';
 $config_directories['sync'] = 'sites/default/files/config_L3Ic0EUu_WRnHWf_of4oIKBPTPaXn5ka4JmAV7Os1dCKUdArAYxzgqXevsfcFf4V3Ekc1JCfvQ/sync';
+
+$config['restrict_ip.settings']['enable'] = FALSE;
