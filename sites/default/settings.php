@@ -786,7 +786,7 @@ $settings['entity_update_batch_size'] = 50;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'rms-app-copys',
+  'database' => 'rms-app-copy',
   'username' => 'root',
   'password' => 'root',
   'prefix' => '',
