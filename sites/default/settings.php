@@ -786,7 +786,7 @@ $settings['entity_update_batch_size'] = 50;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'rms-app-final',
+  'database' => 'rms',
   'username' => 'root',
   'password' => 'root',
   'prefix' => '',
@@ -800,4 +800,4 @@ $config_directories['sync'] = 'sites/default/files/config_L3Ic0EUu_WRnHWf_of4oIK
 
 $config['restrict_ip.settings']['enable'] = FALSE;
 
- $settings['update_free_access'] = TRUE;
+ // $settings['update_free_access'] = TRUE;
